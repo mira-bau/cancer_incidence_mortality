@@ -3,96 +3,6 @@ MEASURE_MAP = {
     1: "Mortality",
 }
 
-ALIAS_COUNTRY_MAP = {
-    "United States": 840,
-    "USA": 840,
-    "United States of America": 840,
-    "United Kingdom": 826,
-    "United Kingdom of Great Britain and Northern Ireland": 826,
-    "Korea, Rep.": 410,
-    "Korea, Republic of": 410,
-    "Republic of Korea": 410,
-    "Netherlands": 528,
-    "The Netherlands": 528,
-    "Netherlands (Kingdom of the)": 528,
-    "Venezuela": 862,
-    "Venezuela, RB": 862,
-    "Venezuela (Bolivarian Republic of)": 862,
-    "Slovakia": 703,
-    "Slovak Republic": 703,
-    "Kyrgyzstan": 417,
-    "Kyrgyz Republic": 417,
-    "Türkiye": 792,
-    "Turkiye": 792,
-    "France": 250,
-    "France, Martinique": 474,
-    "Argentina": 32,
-    "Australia": 36,
-    "Austria": 40,
-    "Bahrain": 48,
-    "Armenia": 51,
-    "Belgium": 56,
-    "Brazil": 76,
-    "Belize": 84,
-    "Belarus": 112,
-    "Canada": 124,
-    "Chile": 152,
-    "China": 156,
-    "Colombia": 170,
-    "Costa Rica": 188,
-    "Croatia": 191,
-    "Cuba": 192,
-    "Cyprus": 196,
-    "Czechia": 203,
-    "Denmark": 208,
-    "Ecuador": 218,
-    "Estonia": 233,
-    "Finland": 246,
-    "France (metropolitan)": 250,
-    "Georgia": 268,
-    "Germany": 276,
-    "Greece": 300,
-    "Guatemala": 320,
-    "Guyana": 328,
-    "Hungary": 348,
-    "Iceland": 352,
-    "India": 356,
-    "Ireland": 372,
-    "Israel": 376,
-    "Italy": 380,
-    "Japan": 392,
-    "Kuwait": 414,
-    "Latvia": 428,
-    "Lithuania": 440,
-    "Luxembourg": 442,
-    "Malta": 470,
-    "Mauritius": 480,
-    "Mexico": 484,
-    "Moldova": 498,
-    "New Zealand": 554,
-    "Nicaragua": 558,
-    "Norway": 578,
-    "Panama": 591,
-    "Paraguay": 600,
-    "Philippines": 608,
-    "Poland": 616,
-    "Portugal": 620,
-    "Puerto Rico": 630,
-    "Qatar": 634,
-    "Romania": 642,
-    "Serbia": 688,
-    "Singapore": 702,
-    "Slovenia": 705,
-    "South Africa": 710,
-    "Spain": 724,
-    "Sweden": 752,
-    "Switzerland": 756,
-    "Thailand": 764,
-    "Uganda": 800,
-    "Uruguay": 858,
-    "Uzbekistan": 860,
-}
-
 CANCER_MAP = {
     1: "Head and neck",
     2: "Oesophagus",
@@ -124,155 +34,536 @@ CANCER_MAP = {
     15: "Uterus",
 }
 
-COUNTRY_MAP = {
-    32: "Argentina",
-    36: "Australia",
-    40: "Austria",
-    48: "Bahrain",
-    51: "Armenia",
-    56: "Belgium",
-    76: "Brazil",
-    84: "Belize",
-    112: "Belarus",
-    124: "Canada",
-    152: "Chile",
-    156: "China",
-    170: "Colombia",
-    188: "Costa Rica",
-    191: "Croatia",
-    192: "Cuba",
-    196: "Cyprus",
-    203: "Czechia",
-    208: "Denmark",
-    218: "Ecuador",
-    233: "Estonia",
-    246: "Finland",
-    250: "France (metropolitan)",
-    268: "Georgia",
-    276: "Germany",
-    300: "Greece",
-    320: "Guatemala",
-    328: "Guyana",
-    348: "Hungary",
-    352: "Iceland",
-    356: "India",
-    372: "Ireland",
-    376: "Israel",
-    380: "Italy",
-    392: "Japan",
-    410: "Korea, Republic of",
-    414: "Kuwait",
-    417: "Kyrgyzstan",
-    428: "Latvia",
-    440: "Lithuania",
-    442: "Luxembourg",
-    470: "Malta",
-    474: "France, Martinique",
-    480: "Mauritius",
-    484: "Mexico",
-    498: "Moldova",
-    528: "The Netherlands",
-    554: "New Zealand",
-    558: "Nicaragua",
-    578: "Norway",
-    591: "Panama",
-    600: "Paraguay",
-    608: "Philippines",
-    616: "Poland",
-    620: "Portugal",
-    630: "Puerto Rico",
-    634: "Qatar",
-    642: "Romania",
-    688: "Serbia",
-    702: "Singapore",
-    703: "Slovakia",
-    705: "Slovenia",
-    710: "South Africa",
-    724: "Spain",
-    752: "Sweden",
-    756: "Switzerland",
-    764: "Thailand",
-    792: "Türkiye",
-    800: "Uganda",
-    826: "United Kingdom",
-    840: "USA",
-    858: "Uruguay",
-    860: "Uzbekistan",
-    862: "Venezuela",
-}
-
-
-REVERSE_COUNTRY_MAP = {
-    "Argentina": 32,
-    "Australia": 36,
-    "Austria": 40,
-    "Bahrain": 48,
-    "Armenia": 51,
-    "Belgium": 56,
-    "Brazil": 76,
-    "Belize": 84,
-    "Belarus": 112,
-    "Canada": 124,
-    "Chile": 152,
-    "China": 156,
-    "Colombia": 170,
-    "Costa Rica": 188,
-    "Croatia": 191,
-    "Cuba": 192,
-    "Cyprus": 196,
-    "Czechia": 203,
-    "Denmark": 208,
-    "Ecuador": 218,
-    "Estonia": 233,
-    "Finland": 246,
-    "France": 250,
-    "France, Martinique": 250,
-    "Georgia": 268,
-    "Germany": 276,
-    "Greece": 300,
-    "Guatemala": 320,
-    "Guyana": 328,
-    "Hungary": 348,
-    "Iceland": 352,
-    "India": 356,
-    "Ireland": 372,
-    "Israel": 376,
-    "Italy": 380,
-    "Japan": 392,
-    "Korea, Rep.": 410,
-    "Kuwait": 414,
-    "Kyrgyz Republic": 417,
-    "Latvia": 428,
-    "Lithuania": 440,
-    "Luxembourg": 442,
-    "Malta": 470,
-    "Mauritius": 480,
-    "Mexico": 484,
-    "Moldova": 498,
-    "Netherlands": 528,
-    "New Zealand": 554,
-    "Norway": 578,
-    "Panama": 591,
-    "Paraguay": 600,
-    "Philippines": 608,
-    "Poland": 616,
-    "Portugal": 620,
-    "Qatar": 634,
-    "Romania": 642,
-    "Serbia": 688,
-    "Singapore": 702,
-    "Slovak Republic": 703,
-    "Slovenia": 705,
-    "South Africa": 710,
-    "Spain": 724,
-    "Sweden": 752,
-    "Switzerland": 756,
-    "Thailand": 764,
-    "Turkiye": 792,
-    "Uganda": 800,
-    "United Kingdom": 826,
-    "United States": 840,
-    "Uruguay": 858,
-    "Uzbekistan": 860,
-    "Venezuela, RB": 862,
-}
+COUNTRY_MAP = [
+  {
+    "country_id": 840,
+    "standard_name": "USA",
+    "aliases": [
+      "USA",
+      "United States",
+      "United States of America"
+    ]
+  },
+  {
+    "country_id": 826,
+    "standard_name": "United Kingdom",
+    "aliases": [
+      "United Kingdom",
+      "United Kingdom of Great Britain and Northern Ireland"
+    ]
+  },
+  {
+    "country_id": 410,
+    "standard_name": "Korea, Republic of",
+    "aliases": [
+      "Korea, Rep.",
+      "Korea, Republic of",
+      "Republic of Korea"
+    ]
+  },
+  {
+    "country_id": 528,
+    "standard_name": "The Netherlands",
+    "aliases": [
+      "Netherlands",
+      "Netherlands (Kingdom of the)",
+      "The Netherlands"
+    ]
+  },
+  {
+    "country_id": 862,
+    "standard_name": "Venezuela",
+    "aliases": [
+      "Venezuela",
+      "Venezuela (Bolivarian Republic of)",
+      "Venezuela, RB"
+    ]
+  },
+  {
+    "country_id": 703,
+    "standard_name": "Slovakia",
+    "aliases": [
+      "Slovak Republic",
+      "Slovakia"
+    ]
+  },
+  {
+    "country_id": 417,
+    "standard_name": "Kyrgyzstan",
+    "aliases": [
+      "Kyrgyz Republic",
+      "Kyrgyzstan"
+    ]
+  },
+  {
+    "country_id": 792,
+    "standard_name": "Türkiye",
+    "aliases": [
+      "Turkiye",
+      "Türkiye"
+    ]
+  },
+  {
+    "country_id": 250,
+    "standard_name": "France (metropolitan)",
+    "aliases": [
+      "France",
+      "France (metropolitan)"
+    ]
+  },
+  {
+    "country_id": 474,
+    "standard_name": "France, Martinique",
+    "aliases": [
+      "France, Martinique"
+    ]
+  },
+  {
+    "country_id": 32,
+    "standard_name": "Argentina",
+    "aliases": [
+      "Argentina"
+    ]
+  },
+  {
+    "country_id": 36,
+    "standard_name": "Australia",
+    "aliases": [
+      "Australia"
+    ]
+  },
+  {
+    "country_id": 40,
+    "standard_name": "Austria",
+    "aliases": [
+      "Austria"
+    ]
+  },
+  {
+    "country_id": 48,
+    "standard_name": "Bahrain",
+    "aliases": [
+      "Bahrain"
+    ]
+  },
+  {
+    "country_id": 51,
+    "standard_name": "Armenia",
+    "aliases": [
+      "Armenia"
+    ]
+  },
+  {
+    "country_id": 56,
+    "standard_name": "Belgium",
+    "aliases": [
+      "Belgium"
+    ]
+  },
+  {
+    "country_id": 76,
+    "standard_name": "Brazil",
+    "aliases": [
+      "Brazil"
+    ]
+  },
+  {
+    "country_id": 84,
+    "standard_name": "Belize",
+    "aliases": [
+      "Belize"
+    ]
+  },
+  {
+    "country_id": 112,
+    "standard_name": "Belarus",
+    "aliases": [
+      "Belarus"
+    ]
+  },
+  {
+    "country_id": 124,
+    "standard_name": "Canada",
+    "aliases": [
+      "Canada"
+    ]
+  },
+  {
+    "country_id": 152,
+    "standard_name": "Chile",
+    "aliases": [
+      "Chile"
+    ]
+  },
+  {
+    "country_id": 156,
+    "standard_name": "China",
+    "aliases": [
+      "China"
+    ]
+  },
+  {
+    "country_id": 170,
+    "standard_name": "Colombia",
+    "aliases": [
+      "Colombia"
+    ]
+  },
+  {
+    "country_id": 188,
+    "standard_name": "Costa Rica",
+    "aliases": [
+      "Costa Rica"
+    ]
+  },
+  {
+    "country_id": 191,
+    "standard_name": "Croatia",
+    "aliases": [
+      "Croatia"
+    ]
+  },
+  {
+    "country_id": 192,
+    "standard_name": "Cuba",
+    "aliases": [
+      "Cuba"
+    ]
+  },
+  {
+    "country_id": 196,
+    "standard_name": "Cyprus",
+    "aliases": [
+      "Cyprus"
+    ]
+  },
+  {
+    "country_id": 203,
+    "standard_name": "Czechia",
+    "aliases": [
+      "Czechia"
+    ]
+  },
+  {
+    "country_id": 208,
+    "standard_name": "Denmark",
+    "aliases": [
+      "Denmark"
+    ]
+  },
+  {
+    "country_id": 218,
+    "standard_name": "Ecuador",
+    "aliases": [
+      "Ecuador"
+    ]
+  },
+  {
+    "country_id": 233,
+    "standard_name": "Estonia",
+    "aliases": [
+      "Estonia"
+    ]
+  },
+  {
+    "country_id": 246,
+    "standard_name": "Finland",
+    "aliases": [
+      "Finland"
+    ]
+  },
+  {
+    "country_id": 268,
+    "standard_name": "Georgia",
+    "aliases": [
+      "Georgia"
+    ]
+  },
+  {
+    "country_id": 276,
+    "standard_name": "Germany",
+    "aliases": [
+      "Germany"
+    ]
+  },
+  {
+    "country_id": 300,
+    "standard_name": "Greece",
+    "aliases": [
+      "Greece"
+    ]
+  },
+  {
+    "country_id": 320,
+    "standard_name": "Guatemala",
+    "aliases": [
+      "Guatemala"
+    ]
+  },
+  {
+    "country_id": 328,
+    "standard_name": "Guyana",
+    "aliases": [
+      "Guyana"
+    ]
+  },
+  {
+    "country_id": 348,
+    "standard_name": "Hungary",
+    "aliases": [
+      "Hungary"
+    ]
+  },
+  {
+    "country_id": 352,
+    "standard_name": "Iceland",
+    "aliases": [
+      "Iceland"
+    ]
+  },
+  {
+    "country_id": 356,
+    "standard_name": "India",
+    "aliases": [
+      "India"
+    ]
+  },
+  {
+    "country_id": 372,
+    "standard_name": "Ireland",
+    "aliases": [
+      "Ireland"
+    ]
+  },
+  {
+    "country_id": 376,
+    "standard_name": "Israel",
+    "aliases": [
+      "Israel"
+    ]
+  },
+  {
+    "country_id": 380,
+    "standard_name": "Italy",
+    "aliases": [
+      "Italy"
+    ]
+  },
+  {
+    "country_id": 392,
+    "standard_name": "Japan",
+    "aliases": [
+      "Japan"
+    ]
+  },
+  {
+    "country_id": 414,
+    "standard_name": "Kuwait",
+    "aliases": [
+      "Kuwait"
+    ]
+  },
+  {
+    "country_id": 428,
+    "standard_name": "Latvia",
+    "aliases": [
+      "Latvia"
+    ]
+  },
+  {
+    "country_id": 440,
+    "standard_name": "Lithuania",
+    "aliases": [
+      "Lithuania"
+    ]
+  },
+  {
+    "country_id": 442,
+    "standard_name": "Luxembourg",
+    "aliases": [
+      "Luxembourg"
+    ]
+  },
+  {
+    "country_id": 470,
+    "standard_name": "Malta",
+    "aliases": [
+      "Malta"
+    ]
+  },
+  {
+    "country_id": 480,
+    "standard_name": "Mauritius",
+    "aliases": [
+      "Mauritius"
+    ]
+  },
+  {
+    "country_id": 484,
+    "standard_name": "Mexico",
+    "aliases": [
+      "Mexico"
+    ]
+  },
+  {
+    "country_id": 498,
+    "standard_name": "Moldova",
+    "aliases": [
+      "Moldova"
+    ]
+  },
+  {
+    "country_id": 554,
+    "standard_name": "New Zealand",
+    "aliases": [
+      "New Zealand"
+    ]
+  },
+  {
+    "country_id": 558,
+    "standard_name": "Nicaragua",
+    "aliases": [
+      "Nicaragua"
+    ]
+  },
+  {
+    "country_id": 578,
+    "standard_name": "Norway",
+    "aliases": [
+      "Norway"
+    ]
+  },
+  {
+    "country_id": 591,
+    "standard_name": "Panama",
+    "aliases": [
+      "Panama"
+    ]
+  },
+  {
+    "country_id": 600,
+    "standard_name": "Paraguay",
+    "aliases": [
+      "Paraguay"
+    ]
+  },
+  {
+    "country_id": 608,
+    "standard_name": "Philippines",
+    "aliases": [
+      "Philippines"
+    ]
+  },
+  {
+    "country_id": 616,
+    "standard_name": "Poland",
+    "aliases": [
+      "Poland"
+    ]
+  },
+  {
+    "country_id": 620,
+    "standard_name": "Portugal",
+    "aliases": [
+      "Portugal"
+    ]
+  },
+  {
+    "country_id": 630,
+    "standard_name": "Puerto Rico",
+    "aliases": [
+      "Puerto Rico"
+    ]
+  },
+  {
+    "country_id": 634,
+    "standard_name": "Qatar",
+    "aliases": [
+      "Qatar"
+    ]
+  },
+  {
+    "country_id": 642,
+    "standard_name": "Romania",
+    "aliases": [
+      "Romania"
+    ]
+  },
+  {
+    "country_id": 688,
+    "standard_name": "Serbia",
+    "aliases": [
+      "Serbia"
+    ]
+  },
+  {
+    "country_id": 702,
+    "standard_name": "Singapore",
+    "aliases": [
+      "Singapore"
+    ]
+  },
+  {
+    "country_id": 705,
+    "standard_name": "Slovenia",
+    "aliases": [
+      "Slovenia"
+    ]
+  },
+  {
+    "country_id": 710,
+    "standard_name": "South Africa",
+    "aliases": [
+      "South Africa"
+    ]
+  },
+  {
+    "country_id": 724,
+    "standard_name": "Spain",
+    "aliases": [
+      "Spain"
+    ]
+  },
+  {
+    "country_id": 752,
+    "standard_name": "Sweden",
+    "aliases": [
+      "Sweden"
+    ]
+  },
+  {
+    "country_id": 756,
+    "standard_name": "Switzerland",
+    "aliases": [
+      "Switzerland"
+    ]
+  },
+  {
+    "country_id": 764,
+    "standard_name": "Thailand",
+    "aliases": [
+      "Thailand"
+    ]
+  },
+  {
+    "country_id": 800,
+    "standard_name": "Uganda",
+    "aliases": [
+      "Uganda"
+    ]
+  },
+  {
+    "country_id": 858,
+    "standard_name": "Uruguay",
+    "aliases": [
+      "Uruguay"
+    ]
+  },
+  {
+    "country_id": 860,
+    "standard_name": "Uzbekistan",
+    "aliases": [
+      "Uzbekistan"
+    ]
+  }
+]
