@@ -54,7 +54,7 @@ COUNTRY_MAP = [
   },
   {
     "country_id": 410,
-    "standard_name": "Korea, Republic of",
+    "standard_name": "South Korea",
     "aliases": [
       "Korea, Rep.",
       "Korea, Republic of",

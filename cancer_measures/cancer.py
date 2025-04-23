@@ -15,18 +15,23 @@ logging.basicConfig(
 
 BASE_URL = "https://gco.iarc.fr"
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
-    "Accept": "application/json, text/javascript, */*; q=0.01",
+    "User-Agent": "Mozilla/5.0",
+    "Accept": "application/json",
     "Origin": "https://gco.iarc.who.int",
     "Referer": "https://gco.iarc.who.int/",
 }
 CANCER_OVERTIME_PARAMS = {
-    "ages_group": "0_14",  # 0-75 Years
+    "ages_group": "0_14",
     "year_start": "2000",
     "year_end": "2023",
 }
 
 cancer_overtime_path = "/gateway_prod/api/overtime/v2/21//data/population/%i/0/%i/(%i)/"
+
+# Build country lookup maps
+COUNTRY_ID_TO_NAME = {
+    entry["country_id"]: entry["standard_name"] for entry in mapping.COUNTRY_MAP
+}
 
 
 def build_country_cancer_url(measure_id: int, country_id: int, cancer_id: int) -> str:
@@ -37,9 +42,9 @@ def parse_cancer_data(measure: str, data: list[dict]):
     parsed_data = [
         {
             "country_id": item["country"],
-            "country_name": mapping.COUNTRY_MAP[int(item["country"])],
+            "country_name": COUNTRY_ID_TO_NAME.get(int(item["country"]), "Unknown"),
             "cancer_id": item["cancer"],
-            "cancer_name": mapping.CANCER_MAP[int(item["cancer"])],
+            "cancer_name": mapping.CANCER_MAP.get(int(item["cancer"]), "Unknown"),
             "year": item["year"],
             "new_cases": item["total"],
             "total_cases": item["total_pop"],
@@ -69,9 +74,13 @@ def entrypoint():
         futures = []
         for measure_id, measure_label in mapping.MEASURE_MAP.items():
             for cancer_id in mapping.CANCER_MAP.keys():
-                for country_id in mapping.COUNTRY_MAP.keys():
+                for country in mapping.COUNTRY_MAP:
                     future = executor.submit(
-                        fetch_data, measure_id, measure_label, cancer_id, country_id
+                        fetch_data,
+                        measure_id,
+                        measure_label,
+                        cancer_id,
+                        country["country_id"],
                     )
                     futures.append(future)
 
@@ -82,7 +91,7 @@ def entrypoint():
 
     df = pd.DataFrame(warehouse)
     print("Exporting data to CSV...")
-    df.to_csv("cancer_data.csv", index=False)
+    df.to_csv("processed/cancer_data.csv", index=False)
 
 
 if __name__ == "__main__":

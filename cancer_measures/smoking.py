@@ -1,6 +1,17 @@
 import pandas as pd
-
 import mapping
+
+# Build alias-to-id lookup
+ALIAS_TO_ID = {
+    alias: entry["country_id"]
+    for entry in mapping.COUNTRY_MAP
+    for alias in [entry["standard_name"]] + entry["aliases"]
+}
+
+# Build id-to-standard name lookup
+ID_TO_STANDARD_NAME = {
+    entry["country_id"]: entry["standard_name"] for entry in mapping.COUNTRY_MAP
+}
 
 if __name__ == "__main__":
     # Load Excel file
@@ -16,17 +27,21 @@ if __name__ == "__main__":
         value_name="tobacco_use",
     )
 
-    # Drop missing values
+    # Keep only numeric years and non-null values
     data = data[data["year"].astype(str).str.isnumeric()]
     data = data.dropna(subset=["tobacco_use"])
 
-    # Map country_id
-    data["country_id"] = data["Country Name"].map(mapping.REVERSE_COUNTRY_MAP)
+    # Map country_id using aliases
+    data["country_id"] = data["Country Name"].map(ALIAS_TO_ID).astype("Int64")
 
-    # Final filter
+    # Filter only valid mappings
     data = data[data["country_id"].notna()]
-    data = data[["country_id", "Country Name", "year", "tobacco_use"]]
-    data.columns = ["country_id", "country_name", "year", "tobacco_use"]
+
+    # Map standard country names
+    data["country_name"] = data["country_id"].map(ID_TO_STANDARD_NAME)
+
+    # Select final columns
+    data = data[["country_id", "country_name", "year", "tobacco_use"]]
 
     # Export to CSV
     data.to_csv("processed/smoking.csv", index=False)
