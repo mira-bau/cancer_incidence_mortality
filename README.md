@@ -24,20 +24,22 @@ Each parser handles one data source:
 - `smoking.py` – extracts tobacco use prevalence
 - `air_pollution.py` - extracts mean annual exposure of air pollution
 - `health_coverage.py` - extracts the Universal Health Coverage Index
+- `gcp.py` - extracts the GDP per Capita (current US$)
 
 All parsers map countries using a unified COUNTRY_MAP structure from `mapping.py`, which includes multiple name aliases for robust matching.
 
 
 ## Data Sources
 
-| Dataset         | Source | Link |
-|----------------|--------|------|
-| **Cancer**      | Global Cancer Observatory | [gco.iarc.fr](https://gco.iarc.fr/overtime/en/dataviz/trends) |
-| **Smoking**     | World Bank | [data.worldbank.org](https://data.worldbank.org/indicator/SH.PRV.SMOK) |
-| **Alcohol Use** | World Health Organization | [who.int](https://www.who.int/data/gho/indicator-metadata-registry/imr-details/462) |
-| **Diabetes**    | NCD Risk Factor Collaboration | [ncdrisc.org](https://www.ncdrisc.org/data-downloads-diabetes.html) |
-| **Air Pollution** | World Bank | [data.worldbank.org](https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3) |
-| **Universal Health Coverage Index** | World Health Organization | [who.int](https://data.who.int/indicators/i/3805B1E/9A706FD) |
+| Dataset                             | Source                        | Link                                                                                |
+| ----------------------------------- | ----------------------------- | ----------------------------------------------------------------------------------- |
+| **Cancer**                          | Global Cancer Observatory     | [gco.iarc.fr](https://gco.iarc.fr/overtime/en/dataviz/trends)                       |
+| **Smoking**                         | World Bank                    | [data.worldbank.org](https://data.worldbank.org/indicator/SH.PRV.SMOK)              |
+| **Alcohol Use**                     | World Health Organization     | [who.int](https://www.who.int/data/gho/indicator-metadata-registry/imr-details/462) |
+| **Diabetes**                        | NCD Risk Factor Collaboration | [ncdrisc.org](https://www.ncdrisc.org/data-downloads-diabetes.html)                 |
+| **Air Pollution**                   | World Bank                    | [data.worldbank.org](https://data.worldbank.org/indicator/EN.ATM.PM25.MC.M3)        |
+| **Universal Health Coverage Index** | World Health Organization     | [who.int](https://data.who.int/indicators/i/3805B1E/9A706FD)                        |
+| **GDP per Capita**                  | World Bank                    | [data.worldbank.org](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)           |
 
 
 ## Methodology
