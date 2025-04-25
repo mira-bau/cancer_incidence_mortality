@@ -64,6 +64,7 @@ country_id,country_name,year,population
 752,Sweden,2022,10549347
 756,Switzerland,2022,8740472
 764,Thailand,2022,71697030
+792,Türkiye,2022,85341241
 800,Uganda,2022,47249585
 826,United Kingdom,2022,67508936
 840,USA,2022,338289857
@@ -135,6 +136,7 @@ country_id,country_name,year,population
 752,Sweden,2020,10368969
 756,Switzerland,2020,8638613
 764,Thailand,2020,71475664
+792,Türkiye,2020,84135428
 800,Uganda,2020,44404611
 826,United Kingdom,2020,67059474
 840,USA,2020,335942003
@@ -206,6 +208,7 @@ country_id,country_name,year,population
 752,Sweden,2015,9849349
 756,Switzerland,2015,8281732
 764,Thailand,2015,70294397
+792,Türkiye,2015,79646178
 800,Uganda,2015,37477356
 826,United Kingdom,2015,65224364
 840,USA,2015,324607776
@@ -277,6 +280,7 @@ country_id,country_name,year,population
 752,Sweden,2010,9381729
 756,Switzerland,2010,7822435
 764,Thailand,2010,68270489
+792,Türkiye,2010,73195345
 800,Uganda,2010,32341728
 826,United Kingdom,2010,62760039
 840,USA,2010,311182845
@@ -348,6 +352,7 @@ country_id,country_name,year,population
 752,Sweden,2000,8871043
 756,Switzerland,2000,7182059
 764,Thailand,2000,63066603
+792,Türkiye,2000,64113547
 800,Uganda,2000,24020697
 826,United Kingdom,2000,58850043
 840,USA,2000,282398554

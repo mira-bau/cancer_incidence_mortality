@@ -99,6 +99,8 @@ COUNTRY_MAP = [
     "country_id": 792,
     "standard_name": "Türkiye",
     "aliases": [
+      "TÃ¼rkiye",
+      "Turkey",
       "Turkiye",
       "Türkiye"
     ]

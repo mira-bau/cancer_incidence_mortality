@@ -3,17 +3,8 @@ import pandas as pd
 # Load the data
 df = pd.read_csv("preprocessed_data.csv")
 
-# Fill missing values for selected columns only
-columns_to_fill = [
-    "population",
-    "air_pollution",
-    "alcohol_use",
-    "gdp_per_capita",
-    "uhc_index",
-    "obesity_rate",
-    "tobacco_use",
-]
-df[columns_to_fill] = df.groupby("country_name")[columns_to_fill].transform(
+# Fill missing values for population only first
+df["population"] = df.groupby("country_name")["population"].transform(
     lambda x: x.fillna(x.mean())
 )
 
@@ -25,11 +16,24 @@ df["rate"] = df.apply(
     axis=1,
 )
 
-# Drop the population column
-df = df.drop(columns=["population"])
+# Now fill missing values for the other selected markers
+markers = [
+    "air_pollution",
+    "alcohol_use",
+    "gdp_per_capita",
+    "uhc_index",
+    "obesity_rate",
+    "tobacco_use",
+]
+df[markers] = df.groupby("country_name")[markers].transform(
+    lambda x: x.fillna(x.mean())
+)
 
-# Drop any remaining missing rows
-df = df.dropna()
+# Drop the population column
+# df = df.drop(columns=["population"])
+
+# Drop rows where all markers are missing
+df = df[~df[markers].isnull().all(axis=1)]
 
 # Save the result
 df.to_csv("normalized_data.csv", index=False)
