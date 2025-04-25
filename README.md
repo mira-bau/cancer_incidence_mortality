@@ -25,6 +25,7 @@ Each parser handles one data source:
 - `health_coverage.py` - extracts the Universal Health Coverage Index
 - `gcp.py` - extracts the GDP per Capita (current US$)
 - `obesity.py` - extracts the obesity rates
+- `population.py` - extracts the population of countries over the years
 
 All parsers map countries using a unified COUNTRY_MAP structure from `mapping.py`, which includes multiple name aliases for robust matching.
 
@@ -40,6 +41,7 @@ All parsers map countries using a unified COUNTRY_MAP structure from `mapping.py
 | **Universal Health Coverage Index** | World Health Organization | [who.int](https://data.who.int/indicators/i/3805B1E/9A706FD)                                                                                  |
 | **GDP per Capita**                  | World Bank                | [data.worldbank.org](https://data.worldbank.org/indicator/NY.GDP.PCAP.CD)                                                                     |
 | **Obesity**                         | World Health Organization | [who.int](https://www.who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-obesity-among-adults-bmi--30-(crude-estimate)-(-)) |
+| **Population**                      | Kaggle                    | [kaggle.com](https://www.kaggle.com/datasets/iamsouravbanerjee/world-population-dataset)                                                         |
 
 
 ## Methodology
@@ -68,6 +70,7 @@ poetry install
 2. Navigate to the project directory
 ```bash
 cd cancer_measures
+cd markers
 ```
 
 3. Run a specific parser
