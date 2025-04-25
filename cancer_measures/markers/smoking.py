@@ -1,5 +1,5 @@
 import pandas as pd
-import mapping
+import cancer_measures.mapping as mapping
 
 # Build alias-to-id lookup
 ALIAS_TO_ID = {
@@ -15,7 +15,7 @@ ID_TO_STANDARD_NAME = {
 
 if __name__ == "__main__":
     # Load Excel file
-    data = pd.read_excel("raw/API_SH.PRV.xlsx", sheet_name="Data", skiprows=3)
+    data = pd.read_excel("../raw/API_SH.PRV.xlsx", sheet_name="Data", skiprows=3)
 
     # Filter tobacco use indicator
     data = data[data["Indicator Code"] == "SH.PRV.SMOK"]
@@ -44,4 +44,4 @@ if __name__ == "__main__":
     data = data[["country_id", "country_name", "year", "tobacco_use"]]
 
     # Export to CSV
-    data.to_csv("processed/smoking.csv", index=False)
+    data.to_csv("../processed/smoking.csv", index=False)

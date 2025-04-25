@@ -1,5 +1,5 @@
 import pandas as pd
-import mapping
+import cancer_measures.mapping as mapping
 
 # Build alias-to-id lookup
 ALIAS_TO_ID = {
@@ -13,13 +13,15 @@ ID_TO_STANDARD_NAME = {
     entry["country_id"]: entry["standard_name"] for entry in mapping.COUNTRY_MAP
 }
 
-
 if __name__ == "__main__":
     # Load the dataset
-    data = pd.read_csv("raw/ALCOHOL.csv")
+    data = pd.read_csv("../raw/obesity.csv")
 
-    # Extract numeric value before brackets from the 'Value' column
-    data["alcohol_use"] = data["Value"].str.extract(r"^([\d.]+)")
+    # Filter only "Both sexes", normalize casing and spaces
+    data = data[data["Dim1"].str.strip().str.lower() == "both sexes"]
+
+    # Extract numeric value from the 'Value' column
+    data["obesity_rate"] = data["Value"].str.extract(r"^([\d.]+)")
 
     # Map country_id using aliases
     data["country_id"] = data["Location"].map(ALIAS_TO_ID).astype("Int64")
@@ -32,7 +34,7 @@ if __name__ == "__main__":
     data["year"] = data["Period"]
 
     # Select and rename columns
-    data = data[["country_id", "country_name", "year", "alcohol_use"]]
+    data = data[["country_id", "country_name", "year", "obesity_rate"]]
 
-    # Export cleaned data
-    data.to_csv("processed/alcohol_use.csv", index=False)
+    # Save cleaned data
+    data.to_csv("../processed/obesity.csv", index=False)

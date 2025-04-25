@@ -4,7 +4,7 @@ import logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
-import mapping
+import cancer_measures.mapping as mapping
 
 # Catch errors only and logging them
 logging.basicConfig(

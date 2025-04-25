@@ -1,5 +1,5 @@
 import pandas as pd
-import mapping
+import cancer_measures.mapping as mapping
 
 # Build alias and standard name lookup maps
 ALIAS_TO_ID = {
@@ -13,7 +13,7 @@ ID_TO_STANDARD_NAME = {
 
 if __name__ == "__main__":
     # Load air pollution data
-    df = pd.read_csv("raw/PM25_air_polution.csv", skiprows=4)
+    df = pd.read_csv("../raw/PM25_air_polution.csv", skiprows=4)
 
     # Keep only years from 2000 onward
     year_columns = [col for col in df.columns if col.isnumeric() and int(col) >= 2000]
@@ -32,4 +32,4 @@ if __name__ == "__main__":
 
     # Final selection and export
     df = df[["country_id", "country_name", "year", "air_pollution"]]
-    df.to_csv("processed/air_pollution.csv", index=False)
+    df.to_csv("../processed/air_pollution.csv", index=False)

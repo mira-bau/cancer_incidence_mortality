@@ -1,5 +1,5 @@
 import pandas as pd
-import mapping
+import cancer_measures.mapping as mapping
 
 # Build alias-to-id lookup
 ALIAS_TO_ID = {
@@ -15,7 +15,7 @@ ID_TO_STANDARD_NAME = {
 
 if __name__ == "__main__":
     # Load the dataset
-    df = pd.read_csv("raw/gdp.csv", skiprows=4)
+    df = pd.read_csv("../raw/gdp.csv", skiprows=4)
 
     # Keep only columns from 2000 to 2024
     year_columns = [str(year) for year in range(2000, 2025)]
@@ -43,4 +43,4 @@ if __name__ == "__main__":
     df = df[df["gdp_per_capita"].notna()]
 
     # Save the processed data
-    df.to_csv("processed/gdp.csv", index=False)
+    df.to_csv("../processed/gdp.csv", index=False)
