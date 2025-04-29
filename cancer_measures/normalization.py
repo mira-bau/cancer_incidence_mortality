@@ -26,6 +26,7 @@ df[markers] = df.groupby("country_name")[markers].transform(
 
 # Drop rows where all markers are missing
 df = df[~df[markers].isnull().all(axis=1)]
+df["population"] = df["population"].round().astype("Int64")
 
 # Save cleaned data
 df.to_csv("normalized_data.csv", index=False)
