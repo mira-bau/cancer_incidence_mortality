@@ -12,7 +12,10 @@ Each dataset outputs a consistent schema:
 - `country_name`: The official country name
 - `year`: Year of the observation
 
-Additional columns vary depending on the dataset (e.g., `tobacco_use`, `alcohol_use`, `obesity`, `new_cases`, etc.).
+Additional columns vary depending on the dataset (e.g., `tobacco_use`, `alcohol_use`, `obesity`, `new_cases/deaths`, etc.).
+
+
+**NOTE: The `new_cases/deaths` column is determined by the value in the `measure` column: if measure is *Incidence*, the value represents *new_cases*; if measure is *Mortality*, it represents *deaths*.**
 
 
 ## Parsers

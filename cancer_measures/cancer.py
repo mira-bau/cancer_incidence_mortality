@@ -46,7 +46,7 @@ def parse_cancer_data(measure: str, data: list[dict]):
             "cancer_id": item["cancer"],
             "cancer_name": mapping.CANCER_MAP.get(int(item["cancer"]), "Unknown"),
             "year": item["year"],
-            "new_cases": item["total"],
+            "new_cases/deaths": item["total"],
             "total_cases": item["total_pop"],
             "cumulative_risk": item["cum_risk_74"],
             "measure": measure,

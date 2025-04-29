@@ -8,26 +8,30 @@ incidence_df = df[df["measure"] == "Incidence"]
 mortality_df = df[df["measure"] == "Mortality"]
 
 # Find the cancer with the highest total incidence rate per country
+incidence_grouped = (
+    incidence_df.groupby(["country_name", "cancer_name"])["rate"].sum().reset_index()
+)
 dominant_incidence = (
-    incidence_df.groupby(["country_name", "cancer_name"])["rate"]
-    .sum()
-    .groupby("country_name")
-    .idxmax()
+    incidence_grouped.sort_values(["country_name", "rate"], ascending=[True, False])
+    .drop_duplicates("country_name")
+    .set_index("country_name")
 )
 
 # Find the cancer with the highest total mortality rate per country
+mortality_grouped = (
+    mortality_df.groupby(["country_name", "cancer_name"])["rate"].sum().reset_index()
+)
 dominant_mortality = (
-    mortality_df.groupby(["country_name", "cancer_name"])["rate"]
-    .sum()
-    .groupby("country_name")
-    .idxmax()
+    mortality_grouped.sort_values(["country_name", "rate"], ascending=[True, False])
+    .drop_duplicates("country_name")
+    .set_index("country_name")
 )
 
-# Create a DataFrame to store the results
+# Create result DataFrame
 result = pd.DataFrame(
     {
-        "highest_incidence_cancer": dominant_incidence.apply(lambda x: x[1]),
-        "highest_mortality_cancer": dominant_mortality.apply(lambda x: x[1]),
+        "highest_incidence_cancer": dominant_incidence["cancer_name"],
+        "highest_mortality_cancer": dominant_mortality["cancer_name"],
     }
 )
 

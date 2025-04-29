@@ -1,74 +1,74 @@
 country_name,highest_incidence_cancer,highest_mortality_cancer
-Argentina,Breast,Bladder
-Armenia,,Bladder
-Australia,Prostate,Bladder
-Austria,Breast,Bladder
+Argentina,Breast,Lung
+Armenia,,Lung
+Australia,Prostate,Lung
+Austria,Breast,Lung
 Bahrain,Breast,
 Belarus,Lung,
-Belgium,,Bladder
-Belize,,Bladder
-Brazil,,Bladder
-Canada,Breast,Bladder
-Chile,Prostate,Bladder
+Belgium,,Lung
+Belize,,Uterus
+Brazil,,Lung
+Canada,Breast,Lung
+Chile,Prostate,Stomach
 China,Lung,
-Colombia,Breast,Bladder
-Costa Rica,Breast,Bladder
-Croatia,Lung,Bladder
-Cuba,,Bladder
-Cyprus,Breast,Bladder
+Colombia,Breast,Stomach
+Costa Rica,Breast,Stomach
+Croatia,Lung,Lung
+Cuba,,Lung
+Cyprus,Breast,Lung
 Czechia,Bladder,Bladder
-Denmark,Breast,Bladder
-Ecuador,Thyroid,Bladder
-Estonia,Prostate,Bladder
-Finland,Breast,Bladder
-France (metropolitan),Breast,Bladder
-Georgia,,Bladder
-Germany,Breast,Bladder
-Greece,,Bladder
-Guatemala,,Bladder
-Guyana,,Bladder
-Hungary,,Bladder
+Denmark,Breast,Lung
+Ecuador,Thyroid,Stomach
+Estonia,Prostate,Lung
+Finland,Breast,Lung
+France (metropolitan),Breast,Lung
+Georgia,,Lung
+Germany,Breast,Lung
+Greece,,Lung
+Guatemala,,Stomach
+Guyana,,Uterus
+Hungary,,Lung
 Iceland,Breast,
 India,Breast,
-Ireland,Prostate,Bladder
-Israel,Breast,Bladder
-Italy,Breast,Bladder
-Japan,Stomach,Bladder
-Kuwait,Breast,Bladder
-Kyrgyzstan,,Bladder
-Latvia,Lung,Bladder
-Lithuania,Prostate,Bladder
-Luxembourg,,Bladder
-Malta,Breast,Bladder
-Mauritius,,Bladder
-Mexico,,Bladder
-Moldova,,Bladder
-New Zealand,Breast,Bladder
-Nicaragua,,Bladder
-Norway,Prostate,Bladder
-Panama,,Bladder
-Paraguay,,Bladder
-Philippines,Breast,Bladder
-Poland,Lung,Bladder
-Portugal,,Bladder
+Ireland,Prostate,Lung
+Israel,Breast,Lung
+Italy,Breast,Lung
+Japan,Stomach,Lung
+Kuwait,Breast,Breast
+Kyrgyzstan,,Stomach
+Latvia,Lung,Lung
+Lithuania,Prostate,Lung
+Luxembourg,,Lung
+Malta,Breast,Lung
+Mauritius,,Breast
+Mexico,,Breast
+Moldova,,Lung
+New Zealand,Breast,Lung
+Nicaragua,,Uterus
+Norway,Prostate,Lung
+Panama,,Stomach
+Paraguay,,Uterus
+Philippines,Breast,Lung
+Poland,Lung,Lung
+Portugal,,Lung
 Puerto Rico,Prostate,
 Qatar,Breast,
-Romania,,Bladder
-Serbia,,Bladder
-Singapore,,Bladder
-Slovakia,,Bladder
-Slovenia,Lung,Bladder
-South Africa,,Bladder
-South Korea,Thyroid,Bladder
-Spain,Breast,Bladder
-Sweden,Prostate,Bladder
-Switzerland,Breast,Bladder
+Romania,,Lung
+Serbia,,Lung
+Singapore,,Lung
+Slovakia,,Lung
+Slovenia,Lung,Lung
+South Africa,,Lung
+South Korea,Thyroid,Lung
+Spain,Breast,Lung
+Sweden,Prostate,Lung
+Switzerland,Breast,Lung
 Thailand,Liver,
-The Netherlands,Breast,Bladder
+The Netherlands,Breast,Lung
 Türkiye,Lung,
-USA,Breast,Bladder
+USA,Breast,Lung
 Uganda,Kaposi sarcoma,
-United Kingdom,,Bladder
-Uruguay,,Bladder
-Uzbekistan,,Bladder
-Venezuela,,Bladder
+United Kingdom,,Lung
+Uruguay,,Lung
+Uzbekistan,,Stomach
+Venezuela,,Lung

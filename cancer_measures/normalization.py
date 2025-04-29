@@ -3,20 +3,15 @@ import pandas as pd
 # Load the data
 df = pd.read_csv("preprocessed_data.csv")
 
-# Fill missing values for population only first
+# Fill missing population values per country
 df["population"] = df.groupby("country_name")["population"].transform(
     lambda x: x.fillna(x.mean())
 )
 
-# Create normalized rates based on measure
-df["rate"] = df.apply(
-    lambda row: row["new_cases"] / row["population"]
-    if row["measure"] == "Incidence"
-    else row["total_cases"] / row["population"],
-    axis=1,
-)
+# Fix rate calculation: use new_cases/deaths for both Incidence and Mortality (if no death data available)
+df["rate"] = df["new_cases/deaths"] / df["population"]
 
-# Now fill missing values for the other selected markers
+# Fill missing values for other markers
 markers = [
     "air_pollution",
     "alcohol_use",
@@ -29,15 +24,10 @@ df[markers] = df.groupby("country_name")[markers].transform(
     lambda x: x.fillna(x.mean())
 )
 
-# Drop the population column
-# df = df.drop(columns=["population"])
-
 # Drop rows where all markers are missing
 df = df[~df[markers].isnull().all(axis=1)]
 
-# Save the result
+# Save cleaned data
 df.to_csv("normalized_data.csv", index=False)
 
-print(
-    "Normalization and missing data handling complete. File saved as 'normalized_data.csv'."
-)
+print("Fixed normalization and saved as 'normalized_data.csv'.")
