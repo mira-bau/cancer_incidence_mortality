@@ -18,6 +18,36 @@ Additional columns vary depending on the dataset (e.g., `tobacco_use`, `alcohol_
 **NOTE: The `new_cases/deaths` column is determined by the value in the `measure` column: if measure is *Incidence*, the value represents *new_cases*; if measure is *Mortality*, it represents *deaths*.**
 
 
+# Cancer Statistics Dataset Documentation
+
+This dataset provides cancer-related statistics per country and year, alongside health and economic indicators. Below is a description of each column.
+
+## Column Descriptions
+
+| Column Name          | Description                                                                                                                          |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **country_name**     | Name of the country.                                                                                                                 |
+| **year**             | Year the data was collected.                                                                                                         |
+| **population**       | Total national population in that year.                                                                                              |
+| **cancer_name**      | Specific cancer type (e.g., Head and neck).                                                                                          |
+| **new_cases/deaths** | Number of new cancer cases or deaths in that year (depends on `measure`).                                                            |
+| **total_cases**      | Estimated total number of people ever diagnosed with any cancer up to that year (prevalence), including both survivors and deceased. |
+| **cumulative_risk**  | Probability (0–1) of developing or dying from the cancer before age 75, assuming no other causes of death.                           |
+| **measure**          | Type of data reported: `Incidence` (new cases) or `Mortality` (deaths).                                                              |
+| **air_pollution**    | Average annual PM2.5 air pollution (in micrograms per cubic meter).                                                                  |
+| **alcohol_use**      | Average alcohol consumption per capita per year (liters).                                                                            |
+| **gdp_per_capita**   | GDP per capita in USD (inflation-adjusted).                                                                                          |
+| **uhc_index**        | Universal Health Coverage index (0–100 scale).                                                                                       |
+| **obesity_rate**     | Percentage of population classified as obese.                                                                                        |
+| **tobacco_use**      | Percentage of population using tobacco.                                                                                              |
+| **rate**             | Cancer case or death rate per person (e.g., new_cases/population). Very small value due to population scaling.                       |
+
+## Notes
+
+- The `total_cases` field is not limited to the specific `cancer_name`; it reflects national totals across all cancers.
+- `cumulative_risk` is specific to the listed `cancer_name`.
+
+
 ## Parsers
 
 Each parser handles one data source:
@@ -26,7 +56,7 @@ Each parser handles one data source:
 - `smoking.py` – extracts tobacco use prevalence
 - `air_pollution.py` - extracts mean annual exposure of air pollution
 - `health_coverage.py` - extracts the Universal Health Coverage Index
-- `gcp.py` - extracts the GDP per Capita (current US$)
+- `gdp.py` - extracts the GDP per Capita (current US$)
 - `obesity.py` - extracts the obesity rates
 - `population.py` - extracts the population of countries over the years
 
