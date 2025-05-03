@@ -18,7 +18,6 @@ country_id,country_name,year,uhc_index
 600,Paraguay,2000,48.0
 410,South Korea,2021,89.0
 752,Sweden,2019,85.0
-558,Nicaragua,2005,53.0
 233,Estonia,2017,78.0
 276,Germany,2005,83.0
 250,France (metropolitan),2019,84.0
@@ -61,7 +60,6 @@ country_id,country_name,year,uhc_index
 600,Paraguay,2015,72.0
 191,Croatia,2000,71.0
 233,Estonia,2000,60.0
-558,Nicaragua,2000,47.0
 703,Slovakia,2005,73.0
 554,New Zealand,2005,80.0
 268,Georgia,2015,71.0
@@ -71,14 +69,11 @@ country_id,country_name,year,uhc_index
 48,Bahrain,2010,68.0
 600,Paraguay,2005,59.0
 442,Luxembourg,2000,74.0
-862,Venezuela,2017,75.0
 191,Croatia,2015,78.0
-203,Czechia,2021,84.0
 352,Iceland,2019,89.0
 56,Belgium,2000,77.0
 300,Greece,2010,75.0
 352,Iceland,2000,78.0
-203,Czechia,2010,80.0
 608,Philippines,2010,48.0
 192,Cuba,2010,78.0
 702,Singapore,2010,82.0
@@ -93,7 +88,6 @@ country_id,country_name,year,uhc_index
 417,Kyrgyzstan,2017,71.0
 84,Belize,2000,47.0
 170,Colombia,2010,68.0
-862,Venezuela,2010,67.0
 840,USA,2021,86.0
 840,USA,2010,83.0
 233,Estonia,2019,79.0
@@ -109,14 +103,12 @@ country_id,country_name,year,uhc_index
 32,Argentina,2021,79.0
 356,India,2010,49.0
 826,United Kingdom,2017,86.0
-558,Nicaragua,2015,71.0
 703,Slovakia,2015,82.0
 724,Spain,2017,86.0
 300,Greece,2000,69.0
 440,Lithuania,2000,51.0
 352,Iceland,2005,83.0
 356,India,2000,30.0
-203,Czechia,2005,77.0
 480,Mauritius,2017,68.0
 600,Paraguay,2010,68.0
 276,Germany,2000,79.0
@@ -124,7 +116,6 @@ country_id,country_name,year,uhc_index
 705,Slovenia,2019,85.0
 764,Thailand,2021,82.0
 826,United Kingdom,2019,87.0
-862,Venezuela,2021,75.0
 348,Hungary,2019,79.0
 51,Armenia,2010,60.0
 208,Denmark,2005,74.0
@@ -148,7 +139,6 @@ country_id,country_name,year,uhc_index
 48,Bahrain,2005,64.0
 156,China,2015,76.0
 233,Estonia,2005,62.0
-558,Nicaragua,2017,73.0
 792,Türkiye,2000,57.0
 480,Mauritius,2005,53.0
 702,Singapore,2019,88.0
@@ -164,7 +154,6 @@ country_id,country_name,year,uhc_index
 250,France (metropolitan),2015,84.0
 826,United Kingdom,2021,88.0
 764,Thailand,2010,68.0
-688,Serbia,2021,72.0
 860,Uzbekistan,2015,73.0
 480,Mauritius,2000,49.0
 591,Panama,2005,67.0
@@ -175,13 +164,11 @@ country_id,country_name,year,uhc_index
 428,Latvia,2017,75.0
 724,Spain,2021,85.0
 84,Belize,2010,64.0
-862,Venezuela,2000,49.0
 800,Uganda,2010,36.0
 616,Poland,2015,80.0
 616,Poland,2017,82.0
 528,The Netherlands,2005,78.0
 591,Panama,2000,62.0
-688,Serbia,2010,63.0
 124,Canada,2010,83.0
 442,Luxembourg,2015,84.0
 642,Romania,2000,69.0
@@ -209,7 +196,6 @@ country_id,country_name,year,uhc_index
 528,The Netherlands,2017,85.0
 578,Norway,2021,87.0
 578,Norway,2019,86.0
-558,Nicaragua,2019,73.0
 710,South Africa,2005,51.0
 218,Ecuador,2017,78.0
 356,India,2017,60.0
@@ -222,12 +208,9 @@ country_id,country_name,year,uhc_index
 764,Thailand,2019,82.0
 48,Bahrain,2017,74.0
 152,Chile,2005,74.0
-203,Czechia,2019,83.0
-688,Serbia,2017,73.0
 170,Colombia,2021,80.0
 320,Guatemala,2005,50.0
 300,Greece,2021,77.0
-688,Serbia,2005,63.0
 192,Cuba,2005,71.0
 380,Italy,2019,85.0
 276,Germany,2015,88.0
@@ -253,7 +236,6 @@ country_id,country_name,year,uhc_index
 642,Romania,2019,79.0
 428,Latvia,2019,76.0
 170,Colombia,2005,63.0
-203,Czechia,2015,82.0
 250,France (metropolitan),2010,82.0
 76,Brazil,2005,73.0
 392,Japan,2000,70.0
@@ -296,12 +278,10 @@ country_id,country_name,year,uhc_index
 208,Denmark,2000,72.0
 414,Kuwait,2019,77.0
 840,USA,2005,81.0
-688,Serbia,2019,77.0
 152,Chile,2000,65.0
 840,USA,2019,85.0
 578,Norway,2017,86.0
 826,United Kingdom,2010,83.0
-862,Venezuela,2015,77.0
 826,United Kingdom,2000,72.0
 591,Panama,2010,72.0
 372,Ireland,2000,72.0
@@ -333,14 +313,12 @@ country_id,country_name,year,uhc_index
 246,Finland,2010,84.0
 112,Belarus,2017,78.0
 320,Guatemala,2015,60.0
-862,Venezuela,2005,60.0
 578,Norway,2010,84.0
 76,Brazil,2000,68.0
 32,Argentina,2005,74.0
 36,Australia,2019,87.0
 300,Greece,2017,79.0
 703,Slovakia,2021,82.0
-203,Czechia,2017,84.0
 470,Malta,2000,75.0
 124,Canada,2021,91.0
 191,Croatia,2010,77.0
@@ -354,7 +332,6 @@ country_id,country_name,year,uhc_index
 620,Portugal,2015,87.0
 634,Qatar,2017,72.0
 554,New Zealand,2019,85.0
-558,Nicaragua,2021,70.0
 268,Georgia,2005,61.0
 300,Greece,2015,78.0
 188,Costa Rica,2005,70.0
@@ -374,7 +351,6 @@ country_id,country_name,year,uhc_index
 840,USA,2000,78.0
 246,Finland,2005,81.0
 380,Italy,2017,84.0
-558,Nicaragua,2010,66.0
 620,Portugal,2021,88.0
 352,Iceland,2017,87.0
 710,South Africa,2010,63.0
@@ -438,12 +414,9 @@ country_id,country_name,year,uhc_index
 192,Cuba,2000,56.0
 246,Finland,2000,75.0
 348,Hungary,2005,72.0
-688,Serbia,2015,72.0
 702,Singapore,2000,64.0
 642,Romania,2021,78.0
-862,Venezuela,2019,74.0
 392,Japan,2017,84.0
-688,Serbia,2000,44.0
 417,Kyrgyzstan,2010,59.0
 246,Finland,2021,86.0
 250,France (metropolitan),2017,85.0
@@ -469,7 +442,6 @@ country_id,country_name,year,uhc_index
 51,Armenia,2017,69.0
 196,Cyprus,2005,67.0
 196,Cyprus,2017,81.0
-203,Czechia,2000,77.0
 152,Chile,2019,82.0
 792,Türkiye,2005,64.0
 392,Japan,2015,83.0

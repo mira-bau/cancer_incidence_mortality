@@ -16,7 +16,6 @@ Costa Rica,Breast,Stomach
 Croatia,Lung,Lung
 Cuba,,Lung
 Cyprus,Breast,Lung
-Czechia,Bladder,Bladder
 Denmark,Breast,Lung
 Ecuador,Thyroid,Stomach
 Estonia,Prostate,Lung
@@ -42,19 +41,15 @@ Luxembourg,,Lung
 Malta,Breast,Lung
 Mauritius,,Breast
 Mexico,,Breast
-Moldova,,Lung
 New Zealand,Breast,Lung
-Nicaragua,,Uterus
 Norway,Prostate,Lung
 Panama,,Stomach
 Paraguay,,Uterus
 Philippines,Breast,Lung
 Poland,Lung,Lung
 Portugal,,Lung
-Puerto Rico,Prostate,
 Qatar,Breast,
 Romania,,Lung
-Serbia,,Lung
 Singapore,,Lung
 Slovakia,,Lung
 Slovenia,Lung,Lung
@@ -71,4 +66,3 @@ Uganda,Kaposi sarcoma,
 United Kingdom,,Lung
 Uruguay,,Lung
 Uzbekistan,,Stomach
-Venezuela,,Lung

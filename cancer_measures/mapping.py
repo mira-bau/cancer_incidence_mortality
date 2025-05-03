@@ -71,15 +71,6 @@ COUNTRY_MAP = [
     ]
   },
   {
-    "country_id": 862,
-    "standard_name": "Venezuela",
-    "aliases": [
-      "Venezuela",
-      "Venezuela (Bolivarian Republic of)",
-      "Venezuela, RB"
-    ]
-  },
-  {
     "country_id": 703,
     "standard_name": "Slovakia",
     "aliases": [
@@ -237,13 +228,6 @@ COUNTRY_MAP = [
     "standard_name": "Cyprus",
     "aliases": [
       "Cyprus"
-    ]
-  },
-  {
-    "country_id": 203,
-    "standard_name": "Czechia",
-    "aliases": [
-      "Czechia"
     ]
   },
   {
@@ -408,24 +392,10 @@ COUNTRY_MAP = [
     ]
   },
   {
-    "country_id": 498,
-    "standard_name": "Moldova",
-    "aliases": [
-      "Moldova"
-    ]
-  },
-  {
     "country_id": 554,
     "standard_name": "New Zealand",
     "aliases": [
       "New Zealand"
-    ]
-  },
-  {
-    "country_id": 558,
-    "standard_name": "Nicaragua",
-    "aliases": [
-      "Nicaragua"
     ]
   },
   {
@@ -471,13 +441,6 @@ COUNTRY_MAP = [
     ]
   },
   {
-    "country_id": 630,
-    "standard_name": "Puerto Rico",
-    "aliases": [
-      "Puerto Rico"
-    ]
-  },
-  {
     "country_id": 634,
     "standard_name": "Qatar",
     "aliases": [
@@ -489,13 +452,6 @@ COUNTRY_MAP = [
     "standard_name": "Romania",
     "aliases": [
       "Romania"
-    ]
-  },
-  {
-    "country_id": 688,
-    "standard_name": "Serbia",
-    "aliases": [
-      "Serbia"
     ]
   },
   {

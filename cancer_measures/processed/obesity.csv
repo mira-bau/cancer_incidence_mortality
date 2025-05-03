@@ -15,7 +15,6 @@ country_id,country_name,year,obesity_rate
 56,Belgium,2022,22.0
 705,Slovenia,2022,22.2
 352,Iceland,2022,22.6
-862,Venezuela,2022,22.8
 376,Israel,2022,23.4
 192,Cuba,2022,23.5
 246,Finland,2022,23.7
@@ -24,7 +23,6 @@ country_id,country_name,year,obesity_rate
 417,Kyrgyzstan,2022,24.4
 196,Cyprus,2022,25.1
 320,Guatemala,2022,25.2
-688,Serbia,2022,26.1
 112,Belarus,2022,26.6
 233,Estonia,2022,26.7
 218,Ecuador,2022,27.0
@@ -40,12 +38,10 @@ country_id,country_name,year,obesity_rate
 703,Slovakia,2022,30.3
 372,Ireland,2022,30.8
 440,Lithuania,2022,31.1
-203,Czechia,2022,31.3
 616,Poland,2022,31.4
 36,Australia,2022,31.8
 188,Costa Rica,2022,32.0
 600,Paraguay,2022,32.1
-558,Nicaragua,2022,32.4
 300,Greece,2022,33.7
 554,New Zealand,2022,34.2
 792,Türkiye,2022,34.3
@@ -61,7 +57,6 @@ country_id,country_name,year,obesity_rate
 268,Georgia,2022,38.9
 152,Chile,2022,39.5
 392,Japan,2022,4.9
-630,Puerto Rico,2022,41.0
 84,Belize,2022,41.9
 840,USA,2022,42.9
 634,Qatar,2022,43.8
@@ -88,7 +83,6 @@ country_id,country_name,year,obesity_rate
 705,Slovenia,2021,21.7
 352,Iceland,2021,22.2
 192,Cuba,2021,22.9
-862,Venezuela,2021,22.9
 170,Colombia,2021,23.2
 376,Israel,2021,23.3
 246,Finland,2021,23.5
@@ -96,7 +90,6 @@ country_id,country_name,year,obesity_rate
 276,Germany,2021,24.1
 320,Guatemala,2021,24.4
 196,Cyprus,2021,24.8
-688,Serbia,2021,25.5
 218,Ecuador,2021,26.1
 112,Belarus,2021,26.3
 233,Estonia,2021,26.4
@@ -112,12 +105,10 @@ country_id,country_name,year,obesity_rate
 703,Slovakia,2021,29.9
 372,Ireland,2021,30.4
 440,Lithuania,2021,30.7
-203,Czechia,2021,30.8
 600,Paraguay,2021,31.1
 188,Costa Rica,2021,31.2
 616,Poland,2021,31.2
 36,Australia,2021,31.3
-558,Nicaragua,2021,31.7
 300,Greece,2021,33.2
 792,Türkiye,2021,33.6
 858,Uruguay,2021,33.7
@@ -133,7 +124,6 @@ country_id,country_name,year,obesity_rate
 268,Georgia,2021,38.0
 152,Chile,2021,38.5
 392,Japan,2021,4.8
-630,Puerto Rico,2021,40.4
 84,Belize,2021,41.1
 840,USA,2021,42.4
 634,Qatar,2021,42.9
@@ -162,13 +152,11 @@ country_id,country_name,year,obesity_rate
 192,Cuba,2020,22.2
 170,Colombia,2020,22.6
 417,Kyrgyzstan,2020,22.9
-862,Venezuela,2020,23.0
 376,Israel,2020,23.2
 246,Finland,2020,23.3
 320,Guatemala,2020,23.6
 276,Germany,2020,24.1
 196,Cyprus,2020,24.5
-688,Serbia,2020,24.9
 218,Ecuador,2020,25.2
 620,Portugal,2020,26.1
 233,Estonia,2020,26.2
@@ -184,12 +172,10 @@ country_id,country_name,year,obesity_rate
 710,South Africa,2020,29.3
 372,Ireland,2020,29.9
 600,Paraguay,2020,30.1
-203,Czechia,2020,30.2
 440,Lithuania,2020,30.3
 616,Poland,2020,30.4
 188,Costa Rica,2020,30.5
 36,Australia,2020,30.7
-558,Nicaragua,2020,30.9
 300,Greece,2020,32.7
 858,Uruguay,2020,32.8
 792,Türkiye,2020,33.1
@@ -204,7 +190,6 @@ country_id,country_name,year,obesity_rate
 642,Romania,2020,35.7
 268,Georgia,2020,37.2
 152,Chile,2020,37.5
-630,Puerto Rico,2020,39.8
 392,Japan,2020,4.6
 84,Belize,2020,40.3
 634,Qatar,2020,41.8
@@ -235,12 +220,10 @@ country_id,country_name,year,obesity_rate
 170,Colombia,2019,22.0
 417,Kyrgyzstan,2019,22.1
 320,Guatemala,2019,22.9
-862,Venezuela,2019,23.0
 376,Israel,2019,23.1
 246,Finland,2019,23.1
 276,Germany,2019,24.0
 196,Cyprus,2019,24.1
-688,Serbia,2019,24.4
 218,Ecuador,2019,24.4
 860,Uzbekistan,2019,25.2
 620,Portugal,2019,25.6
@@ -256,12 +239,10 @@ country_id,country_name,year,obesity_rate
 710,South Africa,2019,28.8
 600,Paraguay,2019,29.1
 372,Ireland,2019,29.5
-203,Czechia,2019,29.6
 188,Costa Rica,2019,29.7
 616,Poland,2019,29.7
 440,Lithuania,2019,29.9
 36,Australia,2019,30.1
-558,Nicaragua,2019,30.2
 858,Uruguay,2019,31.9
 300,Greece,2019,32.2
 792,Türkiye,2019,32.5
@@ -276,7 +257,6 @@ country_id,country_name,year,obesity_rate
 48,Bahrain,2019,34.9
 268,Georgia,2019,36.2
 152,Chile,2019,36.5
-630,Puerto Rico,2019,39.2
 84,Belize,2019,39.5
 392,Japan,2019,4.5
 634,Qatar,2019,40.7
@@ -307,12 +287,10 @@ country_id,country_name,year,obesity_rate
 417,Kyrgyzstan,2018,21.4
 170,Colombia,2018,21.4
 320,Guatemala,2018,22.2
-862,Venezuela,2018,22.9
 246,Finland,2018,22.9
 376,Israel,2018,23.0
 218,Ecuador,2018,23.6
 196,Cyprus,2018,23.9
-688,Serbia,2018,23.9
 276,Germany,2018,24.0
 860,Uzbekistan,2018,24.1
 76,Brazil,2018,24.6
@@ -329,9 +307,7 @@ country_id,country_name,year,obesity_rate
 710,South Africa,2018,28.4
 616,Poland,2018,28.9
 188,Costa Rica,2018,29.0
-203,Czechia,2018,29.0
 372,Ireland,2018,29.1
-558,Nicaragua,2018,29.4
 440,Lithuania,2018,29.5
 36,Australia,2018,29.6
 858,Uruguay,2018,31.1
@@ -348,7 +324,6 @@ country_id,country_name,year,obesity_rate
 48,Bahrain,2018,34.2
 268,Georgia,2018,35.3
 152,Chile,2018,35.5
-630,Puerto Rico,2018,38.7
 84,Belize,2018,38.7
 634,Qatar,2018,39.8
 392,Japan,2018,4.4
@@ -381,10 +356,8 @@ country_id,country_name,year,obesity_rate
 320,Guatemala,2017,21.4
 246,Finland,2017,22.7
 376,Israel,2017,22.9
-862,Venezuela,2017,22.9
 218,Ecuador,2017,22.9
 860,Uzbekistan,2017,23.0
-688,Serbia,2017,23.4
 196,Cyprus,2017,23.6
 76,Brazil,2017,23.7
 276,Germany,2017,24.0
@@ -401,8 +374,6 @@ country_id,country_name,year,obesity_rate
 710,South Africa,2017,28.0
 616,Poland,2017,28.2
 188,Costa Rica,2017,28.3
-203,Czechia,2017,28.4
-558,Nicaragua,2017,28.7
 372,Ireland,2017,28.7
 440,Lithuania,2017,29.0
 36,Australia,2017,29.1
@@ -420,7 +391,6 @@ country_id,country_name,year,obesity_rate
 48,Bahrain,2017,33.7
 268,Georgia,2017,34.4
 152,Chile,2017,34.6
-630,Puerto Rico,2017,38.0
 84,Belize,2017,38.0
 634,Qatar,2017,39.0
 392,Japan,2017,4.2
@@ -456,8 +426,6 @@ country_id,country_name,year,obesity_rate
 246,Finland,2016,22.5
 76,Brazil,2016,22.7
 376,Israel,2016,22.8
-862,Venezuela,2016,22.8
-688,Serbia,2016,22.9
 196,Cyprus,2016,23.3
 328,Guyana,2016,23.6
 51,Armenia,2016,23.7
@@ -473,8 +441,6 @@ country_id,country_name,year,obesity_rate
 616,Poland,2016,27.4
 710,South Africa,2016,27.5
 188,Costa Rica,2016,27.6
-203,Czechia,2016,27.8
-558,Nicaragua,2016,28.0
 372,Ireland,2016,28.2
 440,Lithuania,2016,28.6
 36,Australia,2016,28.7
@@ -493,7 +459,6 @@ country_id,country_name,year,obesity_rate
 268,Georgia,2016,33.4
 152,Chile,2016,33.7
 84,Belize,2016,37.2
-630,Puerto Rico,2016,37.4
 634,Qatar,2016,38.3
 840,USA,2016,39.7
 392,Japan,2016,4.1
@@ -526,9 +491,7 @@ country_id,country_name,year,obesity_rate
 218,Ecuador,2015,21.3
 76,Brazil,2015,21.7
 246,Finland,2015,22.3
-688,Serbia,2015,22.5
 376,Israel,2015,22.7
-862,Venezuela,2015,22.7
 328,Guyana,2015,22.9
 196,Cyprus,2015,23.0
 51,Armenia,2015,23.0
@@ -544,8 +507,6 @@ country_id,country_name,year,obesity_rate
 188,Costa Rica,2015,26.9
 826,United Kingdom,2015,26.9
 710,South Africa,2015,27.1
-203,Czechia,2015,27.2
-558,Nicaragua,2015,27.3
 372,Ireland,2015,27.8
 440,Lithuania,2015,28.2
 36,Australia,2015,28.2
@@ -564,7 +525,6 @@ country_id,country_name,year,obesity_rate
 48,Bahrain,2015,32.8
 470,Malta,2015,33.3
 84,Belize,2015,36.5
-630,Puerto Rico,2015,36.7
 634,Qatar,2015,37.5
 840,USA,2015,39.2
 392,Japan,2015,4.0
@@ -597,13 +557,11 @@ country_id,country_name,year,obesity_rate
 218,Ecuador,2014,20.6
 76,Brazil,2014,20.8
 724,Spain,2014,21.3
-688,Serbia,2014,22.0
 328,Guyana,2014,22.2
 246,Finland,2014,22.2
 51,Armenia,2014,22.4
 376,Israel,2014,22.6
 196,Cyprus,2014,22.7
-862,Venezuela,2014,22.7
 620,Portugal,2014,23.3
 276,Germany,2014,23.9
 703,Slovakia,2014,24.2
@@ -614,8 +572,6 @@ country_id,country_name,year,obesity_rate
 124,Canada,2014,26.0
 188,Costa Rica,2014,26.2
 428,Latvia,2014,26.3
-558,Nicaragua,2014,26.5
-203,Czechia,2014,26.6
 826,United Kingdom,2014,26.6
 710,South Africa,2014,26.9
 642,Romania,2014,27.1
@@ -638,7 +594,6 @@ country_id,country_name,year,obesity_rate
 48,Bahrain,2014,32.3
 470,Malta,2014,33.2
 84,Belize,2014,35.7
-630,Puerto Rico,2014,36.1
 634,Qatar,2014,36.7
 840,USA,2014,38.6
 356,India,2014,4.5
@@ -670,12 +625,10 @@ country_id,country_name,year,obesity_rate
 352,Iceland,2013,20.0
 724,Spain,2013,21.5
 328,Guyana,2013,21.6
-688,Serbia,2013,21.6
 51,Armenia,2013,21.8
 246,Finland,2013,22.0
 196,Cyprus,2013,22.5
 376,Israel,2013,22.5
-862,Venezuela,2013,22.6
 620,Portugal,2013,22.8
 703,Slovakia,2013,23.5
 600,Paraguay,2013,23.9
@@ -684,11 +637,9 @@ country_id,country_name,year,obesity_rate
 112,Belarus,2013,24.4
 188,Costa Rica,2013,25.4
 616,Poland,2013,25.4
-558,Nicaragua,2013,25.8
 428,Latvia,2013,25.8
 642,Romania,2013,25.8
 124,Canada,2013,25.9
-203,Czechia,2013,26.0
 826,United Kingdom,2013,26.4
 710,South Africa,2013,26.6
 372,Ireland,2013,26.8
@@ -710,7 +661,6 @@ country_id,country_name,year,obesity_rate
 48,Bahrain,2013,31.7
 470,Malta,2013,33.1
 84,Belize,2013,35.0
-630,Puerto Rico,2013,35.4
 634,Qatar,2013,36.0
 840,USA,2013,38.1
 356,India,2013,4.2
@@ -742,12 +692,10 @@ country_id,country_name,year,obesity_rate
 442,Luxembourg,2012,19.9
 328,Guyana,2012,20.9
 51,Armenia,2012,21.2
-688,Serbia,2012,21.2
 724,Spain,2012,21.7
 246,Finland,2012,21.9
 196,Cyprus,2012,22.2
 620,Portugal,2012,22.3
-862,Venezuela,2012,22.4
 376,Israel,2012,22.4
 703,Slovakia,2012,22.8
 600,Paraguay,2012,23.1
@@ -757,9 +705,7 @@ country_id,country_name,year,obesity_rate
 642,Romania,2012,24.5
 188,Costa Rica,2012,24.7
 616,Poland,2012,24.7
-558,Nicaragua,2012,25.1
 428,Latvia,2012,25.4
-203,Czechia,2012,25.5
 124,Canada,2012,25.7
 858,Uruguay,2012,26.2
 826,United Kingdom,2012,26.2
@@ -782,7 +728,6 @@ country_id,country_name,year,obesity_rate
 48,Bahrain,2012,31.1
 470,Malta,2012,33.0
 84,Belize,2012,34.3
-630,Puerto Rico,2012,34.8
 634,Qatar,2012,35.3
 840,USA,2012,37.6
 414,Kuwait,2012,39.9
@@ -813,13 +758,11 @@ country_id,country_name,year,obesity_rate
 442,Luxembourg,2011,19.9
 328,Guyana,2011,20.3
 51,Armenia,2011,20.7
-688,Serbia,2011,20.8
 246,Finland,2011,21.7
 724,Spain,2011,21.8
 620,Portugal,2011,21.9
 196,Cyprus,2011,22.0
 703,Slovakia,2011,22.1
-862,Venezuela,2011,22.2
 600,Paraguay,2011,22.3
 376,Israel,2011,22.3
 642,Romania,2011,23.2
@@ -828,9 +771,7 @@ country_id,country_name,year,obesity_rate
 276,Germany,2011,23.9
 188,Costa Rica,2011,24.0
 616,Poland,2011,24.1
-558,Nicaragua,2011,24.4
 428,Latvia,2011,24.9
-203,Czechia,2011,25.0
 858,Uruguay,2011,25.5
 124,Canada,2011,25.5
 591,Panama,2011,25.6
@@ -855,7 +796,6 @@ country_id,country_name,year,obesity_rate
 48,Bahrain,2011,30.6
 470,Malta,2011,32.9
 84,Belize,2011,33.6
-630,Puerto Rico,2011,34.1
 634,Qatar,2011,34.5
 840,USA,2011,37.0
 414,Kuwait,2011,39.2
@@ -885,7 +825,6 @@ country_id,country_name,year,obesity_rate
 328,Guyana,2010,19.7
 442,Luxembourg,2010,19.9
 51,Armenia,2010,20.1
-688,Serbia,2010,20.4
 703,Slovakia,2010,21.4
 620,Portugal,2010,21.4
 246,Finland,2010,21.5
@@ -893,16 +832,13 @@ country_id,country_name,year,obesity_rate
 196,Cyprus,2010,21.8
 642,Romania,2010,21.9
 724,Spain,2010,21.9
-862,Venezuela,2010,22.0
 376,Israel,2010,22.2
 188,Costa Rica,2010,23.3
 233,Estonia,2010,23.4
 616,Poland,2010,23.5
 112,Belarus,2010,23.6
-558,Nicaragua,2010,23.7
 276,Germany,2010,23.8
 428,Latvia,2010,24.5
-203,Czechia,2010,24.5
 591,Panama,2010,24.6
 858,Uruguay,2010,24.7
 32,Argentina,2010,24.8
@@ -927,7 +863,6 @@ country_id,country_name,year,obesity_rate
 48,Bahrain,2010,30.0
 470,Malta,2010,32.7
 84,Belize,2010,32.9
-630,Puerto Rico,2010,33.5
 634,Qatar,2010,33.6
 840,USA,2010,36.5
 414,Kuwait,2010,38.6
@@ -958,19 +893,16 @@ country_id,country_name,year,obesity_rate
 51,Armenia,2009,19.6
 442,Luxembourg,2009,19.9
 800,Uganda,2009,2.9
-688,Serbia,2009,20.0
 642,Romania,2009,20.7
 703,Slovakia,2009,20.8
 600,Paraguay,2009,20.9
 620,Portugal,2009,20.9
 246,Finland,2009,21.4
 196,Cyprus,2009,21.5
-862,Venezuela,2009,21.8
 724,Spain,2009,21.9
 376,Israel,2009,22.0
 188,Costa Rica,2009,22.6
 616,Poland,2009,22.8
-558,Nicaragua,2009,23.0
 233,Estonia,2009,23.0
 112,Belarus,2009,23.3
 591,Panama,2009,23.7
@@ -979,7 +911,6 @@ country_id,country_name,year,obesity_rate
 858,Uruguay,2009,24.1
 32,Argentina,2009,24.1
 191,Croatia,2009,24.1
-203,Czechia,2009,24.1
 372,Ireland,2009,24.7
 124,Canada,2009,25.0
 710,South Africa,2009,25.3
@@ -1001,7 +932,6 @@ country_id,country_name,year,obesity_rate
 84,Belize,2009,32.1
 470,Malta,2009,32.4
 634,Qatar,2009,32.5
-630,Puerto Rico,2009,32.8
 840,USA,2009,35.8
 414,Kuwait,2009,38.2
 608,Philippines,2009,5.0
@@ -1029,7 +959,6 @@ country_id,country_name,year,obesity_rate
 56,Belgium,2008,18.9
 51,Armenia,2008,19.1
 642,Romania,2008,19.6
-688,Serbia,2008,19.6
 442,Luxembourg,2008,19.8
 800,Uganda,2008,2.7
 703,Slovakia,2008,20.1
@@ -1037,12 +966,10 @@ country_id,country_name,year,obesity_rate
 620,Portugal,2008,20.4
 246,Finland,2008,21.2
 196,Cyprus,2008,21.3
-862,Venezuela,2008,21.5
 376,Israel,2008,21.7
 188,Costa Rica,2008,21.9
 724,Spain,2008,21.9
 616,Poland,2008,22.2
-558,Nicaragua,2008,22.3
 233,Estonia,2008,22.7
 591,Panama,2008,22.8
 112,Belarus,2008,23.0
@@ -1051,7 +978,6 @@ country_id,country_name,year,obesity_rate
 858,Uruguay,2008,23.4
 276,Germany,2008,23.5
 428,Latvia,2008,23.6
-203,Czechia,2008,23.7
 372,Ireland,2008,24.1
 124,Canada,2008,24.7
 710,South Africa,2008,24.9
@@ -1073,7 +999,6 @@ country_id,country_name,year,obesity_rate
 84,Belize,2008,31.3
 634,Qatar,2008,31.6
 470,Malta,2008,32.1
-630,Puerto Rico,2008,32.2
 840,USA,2008,35.1
 414,Kuwait,2008,37.9
 608,Philippines,2008,4.8
@@ -1101,7 +1026,6 @@ country_id,country_name,year,obesity_rate
 642,Romania,2007,18.4
 51,Armenia,2007,18.6
 56,Belgium,2007,18.6
-688,Serbia,2007,19.3
 703,Slovakia,2007,19.5
 600,Paraguay,2007,19.6
 442,Luxembourg,2007,19.6
@@ -1110,11 +1034,9 @@ country_id,country_name,year,obesity_rate
 356,India,2007,2.9
 246,Finland,2007,20.9
 196,Cyprus,2007,21.0
-862,Venezuela,2007,21.2
 188,Costa Rica,2007,21.3
 376,Israel,2007,21.4
 616,Poland,2007,21.6
-558,Nicaragua,2007,21.7
 724,Spain,2007,21.8
 591,Panama,2007,22.0
 233,Estonia,2007,22.3
@@ -1123,7 +1045,6 @@ country_id,country_name,year,obesity_rate
 32,Argentina,2007,22.6
 858,Uruguay,2007,22.7
 428,Latvia,2007,23.1
-203,Czechia,2007,23.3
 276,Germany,2007,23.3
 372,Ireland,2007,23.6
 124,Canada,2007,24.4
@@ -1144,7 +1065,6 @@ country_id,country_name,year,obesity_rate
 410,South Korea,2007,3.3
 84,Belize,2007,30.5
 634,Qatar,2007,31.0
-630,Puerto Rico,2007,31.4
 470,Malta,2007,31.7
 840,USA,2007,34.4
 414,Kuwait,2007,37.6
@@ -1174,7 +1094,6 @@ country_id,country_name,year,obesity_rate
 51,Armenia,2006,18.1
 56,Belgium,2006,18.3
 703,Slovakia,2006,18.9
-688,Serbia,2006,18.9
 600,Paraguay,2006,19.0
 442,Luxembourg,2006,19.4
 620,Portugal,2006,19.4
@@ -1183,8 +1102,6 @@ country_id,country_name,year,obesity_rate
 188,Costa Rica,2006,20.6
 246,Finland,2006,20.6
 196,Cyprus,2006,20.7
-862,Venezuela,2006,20.9
-558,Nicaragua,2006,21.0
 616,Poland,2006,21.0
 591,Panama,2006,21.1
 376,Israel,2006,21.1
@@ -1195,7 +1112,6 @@ country_id,country_name,year,obesity_rate
 858,Uruguay,2006,22.1
 112,Belarus,2006,22.3
 428,Latvia,2006,22.7
-203,Czechia,2006,22.9
 276,Germany,2006,23.0
 372,Ireland,2006,23.1
 348,Hungary,2006,24.0
@@ -1216,7 +1132,6 @@ country_id,country_name,year,obesity_rate
 410,South Korea,2006,3.1
 392,Japan,2006,3.2
 634,Qatar,2006,30.7
-630,Puerto Rico,2006,30.7
 470,Malta,2006,31.3
 840,USA,2006,33.6
 414,Kuwait,2006,37.2
@@ -1247,18 +1162,15 @@ country_id,country_name,year,obesity_rate
 56,Belgium,2005,18.0
 600,Paraguay,2005,18.4
 703,Slovakia,2005,18.4
-688,Serbia,2005,18.5
 620,Portugal,2005,18.9
 442,Luxembourg,2005,19.2
 188,Costa Rica,2005,19.9
 800,Uganda,2005,2.3
 356,India,2005,2.5
 156,China,2005,2.9
-558,Nicaragua,2005,20.3
 591,Panama,2005,20.3
 246,Finland,2005,20.3
 196,Cyprus,2005,20.4
-862,Venezuela,2005,20.5
 616,Poland,2005,20.5
 376,Israel,2005,20.7
 191,Croatia,2005,20.8
@@ -1268,7 +1180,6 @@ country_id,country_name,year,obesity_rate
 724,Spain,2005,21.5
 112,Belarus,2005,22.0
 428,Latvia,2005,22.2
-203,Czechia,2005,22.6
 372,Ireland,2005,22.6
 276,Germany,2005,22.7
 268,Georgia,2005,23.3
@@ -1285,7 +1196,6 @@ country_id,country_name,year,obesity_rate
 554,New Zealand,2005,25.9
 48,Bahrain,2005,27.0
 84,Belize,2005,28.8
-630,Puerto Rico,2005,29.9
 410,South Korea,2005,3.0
 392,Japan,2005,3.1
 634,Qatar,2005,30.5
@@ -1319,12 +1229,10 @@ country_id,country_name,year,obesity_rate
 56,Belgium,2004,17.7
 600,Paraguay,2004,17.8
 703,Slovakia,2004,17.8
-688,Serbia,2004,18.2
 620,Portugal,2004,18.4
 442,Luxembourg,2004,18.9
 188,Costa Rica,2004,19.3
 591,Panama,2004,19.5
-558,Nicaragua,2004,19.6
 616,Poland,2004,19.9
 800,Uganda,2004,2.1
 356,India,2004,2.3
@@ -1332,7 +1240,6 @@ country_id,country_name,year,obesity_rate
 410,South Korea,2004,2.8
 196,Cyprus,2004,20.0
 246,Finland,2004,20.0
-862,Venezuela,2004,20.1
 191,Croatia,2004,20.1
 376,Israel,2004,20.3
 32,Argentina,2004,20.7
@@ -1342,7 +1249,6 @@ country_id,country_name,year,obesity_rate
 112,Belarus,2004,21.7
 428,Latvia,2004,21.8
 372,Ireland,2004,22.1
-203,Czechia,2004,22.3
 276,Germany,2004,22.3
 268,Georgia,2004,22.6
 348,Hungary,2004,22.6
@@ -1358,7 +1264,6 @@ country_id,country_name,year,obesity_rate
 554,New Zealand,2004,25.2
 48,Bahrain,2004,26.5
 84,Belize,2004,27.9
-630,Puerto Rico,2004,29.1
 634,Qatar,2004,29.9
 392,Japan,2004,3.0
 608,Philippines,2004,3.9
@@ -1392,15 +1297,12 @@ country_id,country_name,year,obesity_rate
 703,Slovakia,2003,17.3
 56,Belgium,2003,17.4
 620,Portugal,2003,17.8
-688,Serbia,2003,17.8
 442,Luxembourg,2003,18.6
 188,Costa Rica,2003,18.6
 591,Panama,2003,18.7
-558,Nicaragua,2003,18.9
 191,Croatia,2003,19.4
 616,Poland,2003,19.4
 196,Cyprus,2003,19.6
-862,Venezuela,2003,19.7
 246,Finland,2003,19.7
 376,Israel,2003,19.9
 800,Uganda,2003,2.0
@@ -1418,7 +1320,6 @@ country_id,country_name,year,obesity_rate
 268,Georgia,2003,21.8
 348,Hungary,2003,21.8
 276,Germany,2003,21.9
-203,Czechia,2003,22.1
 484,Mexico,2003,22.2
 36,Australia,2003,22.3
 826,United Kingdom,2003,22.3
@@ -1431,7 +1332,6 @@ country_id,country_name,year,obesity_rate
 554,New Zealand,2003,24.4
 48,Bahrain,2003,26.0
 84,Belize,2003,27.1
-630,Puerto Rico,2003,28.3
 634,Qatar,2003,29.0
 470,Malta,2003,29.8
 608,Philippines,2003,3.7
@@ -1465,15 +1365,12 @@ country_id,country_name,year,obesity_rate
 703,Slovakia,2002,16.8
 56,Belgium,2002,17.0
 620,Portugal,2002,17.3
-688,Serbia,2002,17.5
 188,Costa Rica,2002,18.0
 591,Panama,2002,18.0
-558,Nicaragua,2002,18.2
 442,Luxembourg,2002,18.2
 191,Croatia,2002,18.7
 616,Poland,2002,18.9
 196,Cyprus,2002,19.2
-862,Venezuela,2002,19.2
 246,Finland,2002,19.3
 32,Argentina,2002,19.4
 376,Israel,2002,19.5
@@ -1493,7 +1390,6 @@ country_id,country_name,year,obesity_rate
 484,Mexico,2002,21.5
 36,Australia,2002,21.6
 826,United Kingdom,2002,21.6
-203,Czechia,2002,21.8
 710,South Africa,2002,21.9
 152,Chile,2002,22.0
 124,Canada,2002,22.0
@@ -1503,7 +1399,6 @@ country_id,country_name,year,obesity_rate
 554,New Zealand,2002,23.6
 48,Bahrain,2002,25.3
 84,Belize,2002,26.2
-630,Puerto Rico,2002,27.5
 634,Qatar,2002,28.0
 470,Malta,2002,29.3
 840,USA,2002,29.9
@@ -1539,14 +1434,11 @@ country_id,country_name,year,obesity_rate
 56,Belgium,2001,16.7
 620,Portugal,2001,16.8
 591,Panama,2001,17.2
-688,Serbia,2001,17.2
 188,Costa Rica,2001,17.3
-558,Nicaragua,2001,17.5
 442,Luxembourg,2001,17.8
 191,Croatia,2001,18.0
 616,Poland,2001,18.3
 196,Cyprus,2001,18.7
-862,Venezuela,2001,18.7
 32,Argentina,2001,18.8
 246,Finland,2001,18.9
 858,Uruguay,2001,19.0
@@ -1568,14 +1460,12 @@ country_id,country_name,year,obesity_rate
 152,Chile,2001,21.2
 710,South Africa,2001,21.3
 124,Canada,2001,21.5
-203,Czechia,2001,21.6
 300,Greece,2001,21.7
 792,Türkiye,2001,22.6
 440,Lithuania,2001,22.7
 554,New Zealand,2001,22.7
 48,Bahrain,2001,24.5
 84,Belize,2001,25.2
-630,Puerto Rico,2001,26.6
 634,Qatar,2001,27.1
 470,Malta,2001,28.8
 840,USA,2001,28.9
@@ -1611,12 +1501,9 @@ country_id,country_name,year,obesity_rate
 591,Panama,2000,16.4
 620,Portugal,2000,16.4
 188,Costa Rica,2000,16.7
-558,Nicaragua,2000,16.8
-688,Serbia,2000,16.8
 191,Croatia,2000,17.4
 442,Luxembourg,2000,17.5
 616,Poland,2000,17.9
-862,Venezuela,2000,18.2
 32,Argentina,2000,18.2
 196,Cyprus,2000,18.3
 858,Uruguay,2000,18.4
@@ -1640,13 +1527,11 @@ country_id,country_name,year,obesity_rate
 710,South Africa,2000,20.7
 124,Canada,2000,20.9
 300,Greece,2000,21.1
-203,Czechia,2000,21.4
 554,New Zealand,2000,21.8
 792,Türkiye,2000,21.9
 440,Lithuania,2000,22.3
 48,Bahrain,2000,23.6
 84,Belize,2000,24.3
-630,Puerto Rico,2000,25.7
 634,Qatar,2000,26.2
 840,USA,2000,27.9
 470,Malta,2000,28.3
@@ -1683,12 +1568,9 @@ country_id,country_name,year,obesity_rate
 620,Portugal,1999,15.9
 56,Belgium,1999,15.9
 188,Costa Rica,1999,16.0
-558,Nicaragua,1999,16.1
-688,Serbia,1999,16.5
 191,Croatia,1999,16.8
 442,Luxembourg,1999,17.2
 616,Poland,1999,17.4
-862,Venezuela,1999,17.6
 32,Argentina,1999,17.6
 858,Uruguay,1999,17.8
 196,Cyprus,1999,17.9
@@ -1713,12 +1595,10 @@ country_id,country_name,year,obesity_rate
 124,Canada,1999,20.2
 300,Greece,1999,20.4
 554,New Zealand,1999,20.9
-203,Czechia,1999,21.3
 792,Türkiye,1999,21.3
 440,Lithuania,1999,22.0
 48,Bahrain,1999,22.8
 84,Belize,1999,23.4
-630,Puerto Rico,1999,24.8
 634,Qatar,1999,25.4
 840,USA,1999,26.9
 470,Malta,1999,27.7
@@ -1752,13 +1632,10 @@ country_id,country_name,year,obesity_rate
 591,Panama,1998,15.0
 703,Slovakia,1998,15.2
 188,Costa Rica,1998,15.3
-558,Nicaragua,1998,15.4
 620,Portugal,1998,15.5
 56,Belgium,1998,15.6
 191,Croatia,1998,16.2
-688,Serbia,1998,16.2
 442,Luxembourg,1998,16.7
-862,Venezuela,1998,17.0
 32,Argentina,1998,17.0
 616,Poland,1998,17.0
 858,Uruguay,1998,17.2
@@ -1785,11 +1662,9 @@ country_id,country_name,year,obesity_rate
 608,Philippines,1998,2.8
 554,New Zealand,1998,20.0
 792,Türkiye,1998,20.7
-203,Czechia,1998,21.2
 440,Lithuania,1998,21.8
 48,Bahrain,1998,22.1
 84,Belize,1998,22.4
-630,Puerto Rico,1998,23.9
 634,Qatar,1998,24.6
 840,USA,1998,25.9
 470,Malta,1998,27.2
@@ -1821,15 +1696,12 @@ country_id,country_name,year,obesity_rate
 591,Panama,1997,14.2
 705,Slovenia,1997,14.4
 380,Italy,1997,14.6
-558,Nicaragua,1997,14.7
 188,Costa Rica,1997,14.7
 703,Slovakia,1997,14.9
 620,Portugal,1997,15.0
 56,Belgium,1997,15.2
 191,Croatia,1997,15.7
-688,Serbia,1997,15.9
 442,Luxembourg,1997,16.3
-862,Venezuela,1997,16.4
 32,Argentina,1997,16.4
 858,Uruguay,1997,16.6
 616,Poland,1997,16.6
@@ -1856,11 +1728,9 @@ country_id,country_name,year,obesity_rate
 392,Japan,1997,2.4
 608,Philippines,1997,2.7
 792,Türkiye,1997,20.0
-203,Czechia,1997,21.1
 48,Bahrain,1997,21.3
 84,Belize,1997,21.5
 440,Lithuania,1997,21.6
-630,Puerto Rico,1997,23.0
 634,Qatar,1997,23.8
 840,USA,1997,24.9
 470,Malta,1997,26.7
@@ -1890,7 +1760,6 @@ country_id,country_name,year,obesity_rate
 600,Paraguay,1996,13.3
 51,Armenia,1996,13.5
 591,Panama,1996,13.6
-558,Nicaragua,1996,14.0
 188,Costa Rica,1996,14.0
 705,Slovenia,1996,14.1
 380,Italy,1996,14.3
@@ -1898,8 +1767,6 @@ country_id,country_name,year,obesity_rate
 703,Slovakia,1996,14.6
 56,Belgium,1996,14.9
 191,Croatia,1996,15.3
-688,Serbia,1996,15.7
-862,Venezuela,1996,15.8
 442,Luxembourg,1996,15.9
 32,Argentina,1996,15.9
 858,Uruguay,1996,16.0
@@ -1928,9 +1795,7 @@ country_id,country_name,year,obesity_rate
 608,Philippines,1996,2.5
 84,Belize,1996,20.6
 48,Bahrain,1996,20.6
-203,Czechia,1996,21.1
 440,Lithuania,1996,21.4
-630,Puerto Rico,1996,22.1
 634,Qatar,1996,23.0
 840,USA,1996,23.9
 470,Malta,1996,26.2
@@ -1961,7 +1826,6 @@ country_id,country_name,year,obesity_rate
 600,Paraguay,1995,12.7
 591,Panama,1995,12.9
 51,Armenia,1995,13.1
-558,Nicaragua,1995,13.4
 188,Costa Rica,1995,13.4
 705,Slovenia,1995,13.8
 380,Italy,1995,14.1
@@ -1969,11 +1833,9 @@ country_id,country_name,year,obesity_rate
 703,Slovakia,1995,14.3
 56,Belgium,1995,14.6
 191,Croatia,1995,14.8
-862,Venezuela,1995,15.2
 32,Argentina,1995,15.3
 442,Luxembourg,1995,15.5
 858,Uruguay,1995,15.5
-688,Serbia,1995,15.5
 616,Poland,1995,16.0
 484,Mexico,1995,16.1
 826,United Kingdom,1995,16.1
@@ -1999,8 +1861,6 @@ country_id,country_name,year,obesity_rate
 48,Bahrain,1995,19.9
 392,Japan,1995,2.2
 608,Philippines,1995,2.3
-203,Czechia,1995,21.1
-630,Puerto Rico,1995,21.3
 440,Lithuania,1995,21.3
 634,Qatar,1995,22.0
 840,USA,1995,22.9
@@ -2031,18 +1891,15 @@ country_id,country_name,year,obesity_rate
 591,Panama,1994,12.3
 51,Armenia,1994,12.6
 188,Costa Rica,1994,12.8
-558,Nicaragua,1994,12.8
 705,Slovenia,1994,13.5
 620,Portugal,1994,13.9
 380,Italy,1994,13.9
 703,Slovakia,1994,14.1
 56,Belgium,1994,14.3
 191,Croatia,1994,14.4
-862,Venezuela,1994,14.5
 32,Argentina,1994,14.8
 858,Uruguay,1994,15.0
 442,Luxembourg,1994,15.1
-688,Serbia,1994,15.3
 484,Mexico,1994,15.3
 826,United Kingdom,1994,15.3
 152,Chile,1994,15.4
@@ -2068,9 +1925,7 @@ country_id,country_name,year,obesity_rate
 48,Bahrain,1994,19.2
 608,Philippines,1994,2.2
 392,Japan,1994,2.2
-630,Puerto Rico,1994,20.4
 634,Qatar,1994,21.1
-203,Czechia,1994,21.2
 440,Lithuania,1994,21.3
 840,USA,1994,22.0
 470,Malta,1994,25.3
@@ -2100,11 +1955,9 @@ country_id,country_name,year,obesity_rate
 591,Panama,1993,11.7
 51,Armenia,1993,12.1
 188,Costa Rica,1993,12.1
-558,Nicaragua,1993,12.3
 705,Slovenia,1993,13.2
 620,Portugal,1993,13.7
 380,Italy,1993,13.8
-862,Venezuela,1993,13.9
 703,Slovakia,1993,13.9
 56,Belgium,1993,14.0
 191,Croatia,1993,14.1
@@ -2116,7 +1969,6 @@ country_id,country_name,year,obesity_rate
 442,Luxembourg,1993,14.7
 36,Australia,1993,14.9
 372,Ireland,1993,15.0
-688,Serbia,1993,15.1
 268,Georgia,1993,15.4
 376,Israel,1993,15.4
 616,Poland,1993,15.4
@@ -2135,13 +1987,11 @@ country_id,country_name,year,obesity_rate
 84,Belize,1993,18.3
 112,Belarus,1993,18.5
 48,Bahrain,1993,18.5
-630,Puerto Rico,1993,19.6
 608,Philippines,1993,2.0
 392,Japan,1993,2.1
 634,Qatar,1993,20.3
 840,USA,1993,21.1
 440,Lithuania,1993,21.2
-203,Czechia,1993,21.4
 470,Malta,1993,24.9
 414,Kuwait,1993,29.7
 764,Thailand,1993,3.9
@@ -2173,9 +2023,7 @@ country_id,country_name,year,obesity_rate
 250,France (metropolitan),1992,11.5
 188,Costa Rica,1992,11.5
 51,Armenia,1992,11.7
-558,Nicaragua,1992,11.8
 705,Slovenia,1992,12.9
-862,Venezuela,1992,13.3
 620,Portugal,1992,13.4
 703,Slovakia,1992,13.7
 56,Belgium,1992,13.7
@@ -2191,7 +2039,6 @@ country_id,country_name,year,obesity_rate
 372,Ireland,1992,14.4
 554,New Zealand,1992,14.7
 268,Georgia,1992,14.9
-688,Serbia,1992,14.9
 376,Israel,1992,15.1
 196,Cyprus,1992,15.2
 616,Poland,1992,15.2
@@ -2208,12 +2055,10 @@ country_id,country_name,year,obesity_rate
 84,Belize,1992,17.6
 48,Bahrain,1992,17.8
 112,Belarus,1992,18.3
-630,Puerto Rico,1992,18.8
 634,Qatar,1992,19.5
 392,Japan,1992,2.1
 840,USA,1992,20.2
 440,Lithuania,1992,21.3
-203,Czechia,1992,21.5
 470,Malta,1992,24.5
 414,Kuwait,1992,29.3
 764,Thailand,1992,3.7
@@ -2242,11 +2087,9 @@ country_id,country_name,year,obesity_rate
 591,Panama,1991,10.5
 600,Paraguay,1991,10.8
 188,Costa Rica,1991,11.0
-558,Nicaragua,1991,11.3
 51,Armenia,1991,11.3
 250,France (metropolitan),1991,11.4
 705,Slovenia,1991,12.6
-862,Venezuela,1991,12.7
 152,Chile,1991,13.1
 826,United Kingdom,1991,13.1
 620,Portugal,1991,13.2
@@ -2263,7 +2106,6 @@ country_id,country_name,year,obesity_rate
 442,Luxembourg,1991,14.0
 268,Georgia,1991,14.4
 710,South Africa,1991,14.6
-688,Serbia,1991,14.7
 124,Canada,1991,14.7
 376,Israel,1991,14.8
 196,Cyprus,1991,14.9
@@ -2278,13 +2120,11 @@ country_id,country_name,year,obesity_rate
 428,Latvia,1991,16.9
 300,Greece,1991,17.0
 48,Bahrain,1991,17.1
-630,Puerto Rico,1991,18.1
 112,Belarus,1991,18.2
 634,Qatar,1991,18.7
 840,USA,1991,19.3
 392,Japan,1991,2.0
 440,Lithuania,1991,21.3
-203,Czechia,1991,21.6
 470,Malta,1991,24.2
 414,Kuwait,1991,28.5
 764,Thailand,1991,3.4
@@ -2312,10 +2152,8 @@ country_id,country_name,year,obesity_rate
 756,Switzerland,1990,10.1
 600,Paraguay,1990,10.3
 188,Costa Rica,1990,10.4
-558,Nicaragua,1990,10.8
 51,Armenia,1990,10.9
 250,France (metropolitan),1990,11.3
-862,Venezuela,1990,12.1
 705,Slovenia,1990,12.3
 826,United Kingdom,1990,12.4
 152,Chile,1990,12.5
@@ -2334,7 +2172,6 @@ country_id,country_name,year,obesity_rate
 268,Georgia,1990,14.0
 124,Canada,1990,14.0
 710,South Africa,1990,14.1
-688,Serbia,1990,14.5
 376,Israel,1990,14.5
 348,Hungary,1990,14.6
 196,Cyprus,1990,14.7
@@ -2348,13 +2185,11 @@ country_id,country_name,year,obesity_rate
 48,Bahrain,1990,16.4
 428,Latvia,1990,16.7
 300,Greece,1990,16.7
-630,Puerto Rico,1990,17.4
 112,Belarus,1990,18.0
 634,Qatar,1990,18.0
 840,USA,1990,18.5
 392,Japan,1990,2.0
 440,Lithuania,1990,21.4
-203,Czechia,1990,21.8
 470,Malta,1990,23.9
 414,Kuwait,1990,27.5
 764,Thailand,1990,3.2
