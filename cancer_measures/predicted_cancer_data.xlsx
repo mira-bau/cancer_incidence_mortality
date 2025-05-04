@@ -1,0 +1,68 @@
+country_name,highest_incidence_cancer,highest_mortality_cancer
+Argentina,Breast,Lung
+Armenia,Breast,Lung
+Australia,Prostate,Lung
+Austria,Breast,Lung
+Bahrain,Breast,Lung
+Belarus,Lung,Lung
+Belgium,Breast,Lung
+Belize,Breast,Uterus
+Brazil,Prostate,Lung
+Canada,Breast,Lung
+Chile,Prostate,Stomach
+China,Lung,Lung
+Colombia,Breast,Stomach
+Costa Rica,Breast,Stomach
+Croatia,Lung,Lung
+Cuba,Breast,Lung
+Cyprus,Breast,Lung
+Denmark,Breast,Lung
+Ecuador,Thyroid,Stomach
+Estonia,Prostate,Lung
+Finland,Breast,Lung
+France (metropolitan),Breast,Lung
+Georgia,Breast,Lung
+Germany,Breast,Lung
+Greece,Breast,Lung
+Guatemala,Breast,Liver
+Guyana,Breast,Uterus
+Hungary,Prostate,Lung
+Iceland,Breast,Lung
+India,Breast,Lung
+Ireland,Prostate,Lung
+Israel,Breast,Lung
+Italy,Breast,Lung
+Japan,Stomach,Lung
+Kuwait,Breast,Breast
+Kyrgyzstan,Breast,Stomach
+Latvia,Lung,Lung
+Lithuania,Prostate,Lung
+Luxembourg,Breast,Lung
+Malta,Breast,Lung
+Mauritius,Prostate,Breast
+Mexico,Lung,Breast
+New Zealand,Breast,Lung
+Norway,Prostate,Lung
+Panama,Breast,Stomach
+Paraguay,Breast,Uterus
+Philippines,Breast,Lung
+Poland,Lung,Lung
+Portugal,Breast,Lung
+Qatar,Breast,Lung
+Romania,Breast,Lung
+Singapore,Breast,Lung
+Slovakia,Breast,Lung
+Slovenia,Lung,Lung
+South Africa,Lung,Lung
+South Korea,Thyroid,Lung
+Spain,Breast,Lung
+Sweden,Prostate,Lung
+Switzerland,Breast,Lung
+Thailand,Liver,Lung
+The Netherlands,Breast,Lung
+Türkiye,Lung,Lung
+USA,Breast,Lung
+Uganda,Kaposi sarcoma,Lung
+United Kingdom,Breast,Lung
+Uruguay,Breast,Lung
+Uzbekistan,Prostate,Stomach
