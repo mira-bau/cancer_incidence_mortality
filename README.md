@@ -82,9 +82,15 @@ All parsers map countries using a unified COUNTRY_MAP structure from `mapping.py
 - Each dataset is parsed and normalized into the shared schema.
 - Country names are resolved using `mapping.py`, which supports both official and alias names.
 - For gender-specific data, values for men and women are averaged.
-- Data is cleaned, filtered (e.g. years ≥ 2020), and exported to CSV.
-- Missing or unmapped countries are logged for traceability.
-- Final outputs are stored in the processed/ directory, ready for analysis or visualization.
+- The raw data is pivoted using country_name as the index.
+- Data is cleaned, filtered (e.g., years ≥ 2020), and exported to CSV.
+- Missing values are estimated using a RandomForestRegressor model.
+- For model performance evaluation, a train/test split was performed on complete data entries.
+- The model’s predictive performance was assessed using Mean Absolute Error (MAE) and R² (coefficient of determination).
+- Using filter.py, the input data is split into smaller chunks by year and by country. These can be found in the `/filtered` directory.
+- `/filtered/report.py` generates a profiling report for each country and each year, saved under the `/reports` directory.
+- `final_report.py` generates the predicted cancer profiling reports, also stored in the `/reports` directory.
+- Final outputs can be found in `predicted_cancer_data.csv` and for visualization `reports/predicted_cancer_data_profile.html`.
 
 
 ## Usage
