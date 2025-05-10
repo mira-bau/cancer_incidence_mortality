@@ -1,0 +1,9 @@
+Model,Accuracy,F1_macro
+RandomForest_Incidence,0.875,0.8585858585858586
+LogisticRegression_Incidence,0.625,0.25641025641025644
+MLPClassifier_Incidence,0.625,0.25641025641025644
+XGBoost_Incidence,0.75,0.4696969696969697
+RandomForest_Mortality,0.8333333333333334,0.5222222222222223
+LogisticRegression_Mortality,0.75,0.2857142857142857
+MLPClassifier_Mortality,0.75,0.2857142857142857
+XGBoost_Mortality,0.8333333333333334,0.5222222222222223
