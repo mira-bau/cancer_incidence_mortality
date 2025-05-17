@@ -1,6 +1,6 @@
 country_name,highest_incidence_cancer,highest_mortality_cancer
 Argentina,Breast,Lung
-Armenia,Lung,Lung
+Armenia,Breast,Lung
 Australia,Prostate,Lung
 Austria,Breast,Lung
 Bahrain,Breast,Breast
@@ -10,7 +10,7 @@ Belize,Breast,Uterus
 Brazil,Breast,Lung
 Canada,Breast,Lung
 Chile,Prostate,Stomach
-China,Lung,Lung
+China,Lung,Stomach
 Colombia,Breast,Stomach
 Costa Rica,Breast,Stomach
 Croatia,Lung,Lung
@@ -21,7 +21,7 @@ Ecuador,Thyroid,Stomach
 Estonia,Prostate,Lung
 Finland,Breast,Lung
 France (metropolitan),Breast,Lung
-Georgia,Lung,Lung
+Georgia,Prostate,Lung
 Germany,Breast,Lung
 Greece,Breast,Lung
 Guatemala,Thyroid,Stomach
@@ -39,7 +39,7 @@ Latvia,Lung,Lung
 Lithuania,Prostate,Lung
 Luxembourg,Breast,Lung
 Malta,Breast,Lung
-Mauritius,Breast,Breast
+Mauritius,Prostate,Breast
 Mexico,Breast,Breast
 New Zealand,Breast,Lung
 Norway,Prostate,Lung
@@ -47,13 +47,13 @@ Panama,Breast,Stomach
 Paraguay,Breast,Uterus
 Philippines,Breast,Lung
 Poland,Lung,Lung
-Portugal,Breast,Lung
+Portugal,Prostate,Lung
 Qatar,Breast,Breast
 Romania,Lung,Lung
 Singapore,Breast,Lung
 Slovakia,Lung,Lung
 Slovenia,Lung,Lung
-South Africa,Breast,Lung
+South Africa,Prostate,Lung
 South Korea,Thyroid,Lung
 Spain,Breast,Lung
 Sweden,Prostate,Lung
